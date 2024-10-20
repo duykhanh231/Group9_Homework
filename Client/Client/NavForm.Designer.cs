@@ -51,6 +51,7 @@
             btnLogin.TabIndex = 1;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // btnSignup
             // 
@@ -60,6 +61,7 @@
             btnSignup.TabIndex = 2;
             btnSignup.Text = "Sign up";
             btnSignup.UseVisualStyleBackColor = true;
+            btnSignup.Click += btnSignup_Click;
             // 
             // NavForm
             // 
@@ -70,7 +72,7 @@
             Controls.Add(btnLogin);
             Controls.Add(lbUserMgmt);
             Name = "NavForm";
-            Text = "Form1";
+            Text = "Account";
             ResumeLayout(false);
             PerformLayout();
         }

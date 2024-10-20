@@ -40,18 +40,19 @@
             tbCfmPass = new TextBox();
             tbEmail = new TextBox();
             tbName = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
+            dtpBirth = new DateTimePicker();
+            btnReg = new Button();
             SuspendLayout();
             // 
             // lbSignup
             // 
             lbSignup.AutoSize = true;
             lbSignup.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbSignup.Location = new Point(392, 40);
+            lbSignup.Location = new Point(291, 44);
             lbSignup.Name = "lbSignup";
-            lbSignup.Size = new Size(179, 59);
+            lbSignup.Size = new Size(358, 59);
             lbSignup.TabIndex = 0;
-            lbSignup.Text = "Sign up";
+            lbSignup.Text = "Account Sign up";
             // 
             // lbUsername
             // 
@@ -143,19 +144,30 @@
             tbName.Size = new Size(400, 39);
             tbName.TabIndex = 11;
             // 
-            // dateTimePicker1
+            // dtpBirth
             // 
-            dateTimePicker1.Location = new Point(418, 450);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(400, 39);
-            dateTimePicker1.TabIndex = 12;
+            dtpBirth.Location = new Point(418, 450);
+            dtpBirth.Name = "dtpBirth";
+            dtpBirth.Size = new Size(400, 39);
+            dtpBirth.TabIndex = 12;
+            // 
+            // btnReg
+            // 
+            btnReg.Location = new Point(402, 546);
+            btnReg.Name = "btnReg";
+            btnReg.Size = new Size(150, 46);
+            btnReg.TabIndex = 13;
+            btnReg.Text = "Register";
+            btnReg.UseVisualStyleBackColor = true;
+            btnReg.Click += btnReg_Click;
             // 
             // SignupForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(921, 538);
-            Controls.Add(dateTimePicker1);
+            ClientSize = new Size(921, 658);
+            Controls.Add(btnReg);
+            Controls.Add(dtpBirth);
             Controls.Add(tbName);
             Controls.Add(tbEmail);
             Controls.Add(tbCfmPass);
@@ -169,7 +181,7 @@
             Controls.Add(lbUsername);
             Controls.Add(lbSignup);
             Name = "SignupForm";
-            Text = "SignupForm";
+            Text = "Sign up";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -188,6 +200,7 @@
         private TextBox tbCfmPass;
         private TextBox tbEmail;
         private TextBox tbName;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtpBirth;
+        private Button btnReg;
     }
 }

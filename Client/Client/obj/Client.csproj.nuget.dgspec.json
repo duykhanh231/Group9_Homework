@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Uni\\NT106\\Excercise\\Client\\Client\\Client.csproj": {}
+    "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\Uni\\NT106\\Excercise\\Client\\Client\\Client.csproj": {
+    "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\Client.csproj",
+        "projectPath": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\Khanh\\.nuget\\packages\\",
-        "outputPath": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\obj\\",
+        "outputPath": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",

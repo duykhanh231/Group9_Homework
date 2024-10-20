@@ -33,17 +33,18 @@
             lbPass = new Label();
             tbUsername = new TextBox();
             tbPass = new TextBox();
+            btnLogin = new Button();
             SuspendLayout();
             // 
             // lbLogin
             // 
             lbLogin.AutoSize = true;
             lbLogin.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbLogin.Location = new Point(333, 49);
+            lbLogin.Location = new Point(255, 50);
             lbLogin.Name = "lbLogin";
-            lbLogin.Size = new Size(138, 59);
+            lbLogin.Size = new Size(317, 59);
             lbLogin.TabIndex = 0;
-            lbLogin.Text = "Login";
+            lbLogin.Text = "Account Login";
             // 
             // lbUsername
             // 
@@ -77,18 +78,29 @@
             tbPass.Size = new Size(265, 39);
             tbPass.TabIndex = 4;
             // 
+            // btnLogin
+            // 
+            btnLogin.Location = new Point(349, 364);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(150, 46);
+            btnLogin.TabIndex = 5;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 464);
+            Controls.Add(btnLogin);
             Controls.Add(tbPass);
             Controls.Add(tbUsername);
             Controls.Add(lbPass);
             Controls.Add(lbUsername);
             Controls.Add(lbLogin);
             Name = "LoginForm";
-            Text = "LoginForm";
+            Text = "Login";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -100,5 +112,6 @@
         private Label lbPass;
         private TextBox tbUsername;
         private TextBox tbPass;
+        private Button btnLogin;
     }
 }
