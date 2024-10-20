@@ -12,14 +12,14 @@ namespace Client
 {
     public partial class ProfileForm : Form
     {
-        public ProfileForm()
+        public ProfileForm(string username, string email, string fullname, string birthday)
         {
             InitializeComponent();
-        }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            tbUsername.Text = username;
+            tbEmail.Text = email;
+            tbName.Text = fullname;
+            tbBirth.Text = birthday;
         }
     }
 }

@@ -42,17 +42,18 @@
             tbName = new TextBox();
             dtpBirth = new DateTimePicker();
             btnReg = new Button();
+            btnLogin = new Button();
             SuspendLayout();
             // 
             // lbSignup
             // 
             lbSignup.AutoSize = true;
             lbSignup.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbSignup.Location = new Point(291, 44);
+            lbSignup.Location = new Point(239, 47);
             lbSignup.Name = "lbSignup";
-            lbSignup.Size = new Size(358, 59);
+            lbSignup.Size = new Size(457, 59);
             lbSignup.TabIndex = 0;
-            lbSignup.Text = "Account Sign up";
+            lbSignup.Text = "Create a new account";
             // 
             // lbUsername
             // 
@@ -89,7 +90,6 @@
             lbEmail.Size = new Size(71, 32);
             lbEmail.TabIndex = 4;
             lbEmail.Text = "Email";
-            lbEmail.Click += lbEmail_Click;
             // 
             // lbName
             // 
@@ -120,6 +120,7 @@
             // 
             tbPass.Location = new Point(418, 206);
             tbPass.Name = "tbPass";
+            tbPass.PasswordChar = '*';
             tbPass.Size = new Size(400, 39);
             tbPass.TabIndex = 8;
             // 
@@ -127,6 +128,7 @@
             // 
             tbCfmPass.Location = new Point(418, 269);
             tbCfmPass.Name = "tbCfmPass";
+            tbCfmPass.PasswordChar = '*';
             tbCfmPass.Size = new Size(400, 39);
             tbCfmPass.TabIndex = 9;
             // 
@@ -146,6 +148,8 @@
             // 
             // dtpBirth
             // 
+            dtpBirth.CustomFormat = "dd/MM/yyyy";
+            dtpBirth.Format = DateTimePickerFormat.Custom;
             dtpBirth.Location = new Point(418, 450);
             dtpBirth.Name = "dtpBirth";
             dtpBirth.Size = new Size(400, 39);
@@ -153,7 +157,7 @@
             // 
             // btnReg
             // 
-            btnReg.Location = new Point(402, 546);
+            btnReg.Location = new Point(312, 544);
             btnReg.Name = "btnReg";
             btnReg.Size = new Size(150, 46);
             btnReg.TabIndex = 13;
@@ -161,11 +165,23 @@
             btnReg.UseVisualStyleBackColor = true;
             btnReg.Click += btnReg_Click;
             // 
+            // btnLogin
+            // 
+            btnLogin.Location = new Point(515, 544);
+            btnLogin.Name = "btnLogin";
+            btnLogin.RightToLeft = RightToLeft.No;
+            btnLogin.Size = new Size(150, 46);
+            btnLogin.TabIndex = 14;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
+            // 
             // SignupForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(921, 658);
+            Controls.Add(btnLogin);
             Controls.Add(btnReg);
             Controls.Add(dtpBirth);
             Controls.Add(tbName);
@@ -202,5 +218,6 @@
         private TextBox tbName;
         private DateTimePicker dtpBirth;
         private Button btnReg;
+        private Button btnLogin;
     }
 }
