@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Uni\\NT106\\Excercise\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\excercise\\client\\client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\excercise\\client\\client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Excercise\\Client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Excercise\\Client\\client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignupForm.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\SignupForm.cs",
+              "RelativeDocumentMoniker": "Client\\SignupForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\SignupForm.cs",
+              "RelativeToolTip": "Client\\SignupForm.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAewBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:41:36.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignupForm.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\SignupForm.cs",
+              "RelativeDocumentMoniker": "Client\\SignupForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\SignupForm.cs [Design]",
+              "RelativeToolTip": "Client\\SignupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:32:43.109Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Client\\LoginForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Client\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:32:29.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavForm.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\NavForm.cs",
+              "RelativeDocumentMoniker": "Client\\NavForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Excercise\\Client\\Client\\NavForm.cs [Design]",
+              "RelativeToolTip": "Client\\NavForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:31:57.805Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
