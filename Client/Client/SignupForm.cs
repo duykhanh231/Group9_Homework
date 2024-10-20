@@ -19,12 +19,6 @@ namespace Client
             InitializeComponent();
         }
 
-
-        private void lbEmail_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnReg_Click(object sender, EventArgs e)
         {
             string username = tbUsername.Text;
@@ -36,13 +30,13 @@ namespace Client
 
             if (pass != cfmPass)
             {
-                MessageBox.Show("Mật khẩu và mật khẩu xác nhận không khớp.");
+                MessageBox.Show("Password and Password Confirmation are not match.");
                 return;
             }
 
             if (!IsValidEmail(email))
             {
-                MessageBox.Show("Email không hợp lệ.");
+                MessageBox.Show("Invalid Email.");
                 return;
             }
 
@@ -83,7 +77,7 @@ namespace Client
         {
             try
             {
-                TcpClient client = new TcpClient("127.0.0.1", 8000);
+                TcpClient client = new TcpClient("127.0.0.1", 2508);
                 NetworkStream stream = client.GetStream();
 
                 byte[] data = Encoding.UTF8.GetBytes(message);
@@ -100,9 +94,15 @@ namespace Client
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi kết nối đến server: " + ex.Message);
+                MessageBox.Show("Error connecting to server: " + ex.Message);
             }
         }
 
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            LoginForm loginform = new LoginForm();
+            loginform.Show();
+            this.Hide();
+        }
     }
 }

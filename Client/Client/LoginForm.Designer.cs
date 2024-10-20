@@ -40,11 +40,11 @@
             // 
             lbLogin.AutoSize = true;
             lbLogin.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbLogin.Location = new Point(255, 50);
+            lbLogin.Location = new Point(217, 51);
             lbLogin.Name = "lbLogin";
-            lbLogin.Size = new Size(317, 59);
+            lbLogin.Size = new Size(407, 59);
             lbLogin.TabIndex = 0;
-            lbLogin.Text = "Account Login";
+            lbLogin.Text = "Enter your account";
             // 
             // lbUsername
             // 
@@ -75,6 +75,7 @@
             // 
             tbPass.Location = new Point(392, 271);
             tbPass.Name = "tbPass";
+            tbPass.PasswordChar = '*';
             tbPass.Size = new Size(265, 39);
             tbPass.TabIndex = 4;
             // 
