@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Uni\\NT106\\GIT\\TCPSERVER\\TCPSERVER\\TCPSERVER.csproj": {}
+    "D:\\Uni\\NT106\\Exercise\\TCPSERVER\\TCPSERVER\\TCPSERVER.csproj": {}
   },
   "projects": {
-    "D:\\Uni\\NT106\\GIT\\TCPSERVER\\TCPSERVER\\TCPSERVER.csproj": {
+    "D:\\Uni\\NT106\\Exercise\\TCPSERVER\\TCPSERVER\\TCPSERVER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uni\\NT106\\GIT\\TCPSERVER\\TCPSERVER\\TCPSERVER.csproj",
+        "projectUniqueName": "D:\\Uni\\NT106\\Exercise\\TCPSERVER\\TCPSERVER\\TCPSERVER.csproj",
         "projectName": "TCPSERVER",
-        "projectPath": "D:\\Uni\\NT106\\GIT\\TCPSERVER\\TCPSERVER\\TCPSERVER.csproj",
+        "projectPath": "D:\\Uni\\NT106\\Exercise\\TCPSERVER\\TCPSERVER\\TCPSERVER.csproj",
         "packagesPath": "C:\\Users\\Khanh\\.nuget\\packages\\",
-        "outputPath": "D:\\Uni\\NT106\\GIT\\TCPSERVER\\TCPSERVER\\obj\\",
+        "outputPath": "D:\\Uni\\NT106\\Exercise\\TCPSERVER\\TCPSERVER\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
