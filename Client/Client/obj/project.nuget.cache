@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "r/Mb/Uj7T+I=",
+  "dgSpecHash": "2nCZE4lnZ0U=",
   "success": true,
-  "projectFilePath": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
+  "projectFilePath": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Khanh\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
-    "C:\\Users\\Khanh\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
-    "C:\\Users\\Khanh\\.nuget\\packages\\google.apis.books.v1\\1.68.0.3331\\google.apis.books.v1.1.68.0.3331.nupkg.sha512",
-    "C:\\Users\\Khanh\\.nuget\\packages\\google.apis.core\\1.68.0\\google.apis.core.1.68.0.nupkg.sha512",
-    "C:\\Users\\Khanh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Khanh\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
-    "C:\\Users\\Khanh\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+    "C:\\Users\\letha\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
+    "C:\\Users\\letha\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
+    "C:\\Users\\letha\\.nuget\\packages\\google.apis.books.v1\\1.68.0.3331\\google.apis.books.v1.1.68.0.3331.nupkg.sha512",
+    "C:\\Users\\letha\\.nuget\\packages\\google.apis.core\\1.68.0\\google.apis.core.1.68.0.nupkg.sha512",
+    "C:\\Users\\letha\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\letha\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\letha\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

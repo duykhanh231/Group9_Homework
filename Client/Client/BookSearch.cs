@@ -119,6 +119,13 @@ namespace Client
 
         private void btnCreateBookshelf_Click(object sender, EventArgs e)
         {
+            CreateBookshelf createBookshelf = new CreateBookshelf();
+            createBookshelf.ShowDialog();
+            this.Hide();
+        }
+
+        private void BookSearch_Load(object sender, EventArgs e)
+        {
 
         }
 

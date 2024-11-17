@@ -302,24 +302,30 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "Google.Apis.Auth >= 1.68.0",
       "Google.Apis.Books.v1 >= 1.68.0.3331",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Khanh\\.nuget\\packages\\": {}
+    "C:\\Users\\letha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
+      "projectUniqueName": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
-      "packagesPath": "C:\\Users\\Khanh\\.nuget\\packages\\",
-      "outputPath": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\obj\\",
+      "projectPath": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\letha\\.nuget\\packages\\",
+      "outputPath": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\letha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -327,6 +333,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -350,6 +357,10 @@
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
+          "Google.Apis.Auth": {
+            "target": "Package",
+            "version": "[1.68.0, )"
+          },
           "Google.Apis.Books.v1": {
             "target": "Package",
             "version": "[1.68.0.3331, )"
@@ -378,7 +389,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

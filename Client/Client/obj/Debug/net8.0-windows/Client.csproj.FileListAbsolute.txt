@@ -30,3 +30,35 @@ D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.BookDetails.
 D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.BookSearch.resources
 D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.CreateBookshelf.resources
 D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.csproj.Up2Date
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.csproj.AssemblyReference.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.BookDetails.resources
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.BookSearch.resources
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.CreateBookshelf.resources
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.LoginForm.resources
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.NavForm.resources
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.ProfileForm.resources
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.SignupForm.resources
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.csproj.GenerateResource.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.AssemblyInfoInputs.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.AssemblyInfo.cs
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.csproj.CoreCompileInputs.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.sourcelink.json
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\refint\Client.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.pdb
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Client.exe
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Client.deps.json
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Client.runtimeconfig.json
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Client.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Client.pdb
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Google.Apis.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Google.Apis.Auth.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Google.Apis.Books.v1.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Google.Apis.Core.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\System.Management.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.csproj.Up2Date
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\Client.genruntimeconfig.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone Google API\Client\Client\obj\Debug\net8.0-windows\ref\Client.dll

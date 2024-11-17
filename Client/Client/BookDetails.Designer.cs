@@ -36,48 +36,57 @@
             // 
             // rtbBookDetails
             // 
-            rtbBookDetails.Location = new Point(77, 59);
+            rtbBookDetails.Location = new Point(47, 37);
+            rtbBookDetails.Margin = new Padding(2);
             rtbBookDetails.Name = "rtbBookDetails";
-            rtbBookDetails.Size = new Size(841, 448);
+            rtbBookDetails.Size = new Size(519, 282);
             rtbBookDetails.TabIndex = 0;
             rtbBookDetails.Text = "";
+            rtbBookDetails.TextChanged += rtbBookDetails_TextChanged;
             // 
             // btnAddToShelf
             // 
-            btnAddToShelf.Location = new Point(189, 536);
+            btnAddToShelf.Location = new Point(116, 335);
+            btnAddToShelf.Margin = new Padding(2);
             btnAddToShelf.Name = "btnAddToShelf";
-            btnAddToShelf.Size = new Size(221, 46);
+            btnAddToShelf.Size = new Size(136, 29);
             btnAddToShelf.TabIndex = 1;
             btnAddToShelf.Text = "Add to shelf";
             btnAddToShelf.UseVisualStyleBackColor = true;
+            btnAddToShelf.Click += btnAddToShelf_Click;
             // 
             // btnRemoveFromShelf
             // 
-            btnRemoveFromShelf.Location = new Point(565, 536);
+            btnRemoveFromShelf.Location = new Point(348, 335);
+            btnRemoveFromShelf.Margin = new Padding(2);
             btnRemoveFromShelf.Name = "btnRemoveFromShelf";
-            btnRemoveFromShelf.Size = new Size(246, 46);
+            btnRemoveFromShelf.Size = new Size(151, 29);
             btnRemoveFromShelf.TabIndex = 2;
             btnRemoveFromShelf.Text = "Remove from shelf";
             btnRemoveFromShelf.UseVisualStyleBackColor = true;
+            btnRemoveFromShelf.Click += btnRemoveFromShelf_Click;
             // 
             // pgbBookDetails
             // 
-            pgbBookDetails.Location = new Point(77, 633);
+            pgbBookDetails.Location = new Point(47, 396);
+            pgbBookDetails.Margin = new Padding(2);
             pgbBookDetails.Name = "pgbBookDetails";
-            pgbBookDetails.Size = new Size(841, 46);
+            pgbBookDetails.Size = new Size(518, 29);
             pgbBookDetails.TabIndex = 3;
             // 
             // BookDetails
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1009, 704);
+            ClientSize = new Size(621, 440);
             Controls.Add(pgbBookDetails);
             Controls.Add(btnRemoveFromShelf);
             Controls.Add(btnAddToShelf);
             Controls.Add(rtbBookDetails);
+            Margin = new Padding(2);
             Name = "BookDetails";
             Text = "BookDetail";
+            Load += BookDetails_Load;
             ResumeLayout(false);
         }
 

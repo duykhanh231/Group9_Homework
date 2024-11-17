@@ -29,76 +29,85 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
             lbName = new Label();
             lbDescription = new Label();
             btnCreate = new Button();
-            textBox2 = new TextBox();
+            tb_BookShelfName = new TextBox();
+            tb_Description = new TextBox();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(327, 58);
+            label1.Location = new Point(201, 36);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(0, 32);
+            label1.Size = new Size(0, 20);
             label1.TabIndex = 0;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(278, 58);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(436, 39);
-            textBox1.TabIndex = 1;
             // 
             // lbName
             // 
             lbName.AutoSize = true;
-            lbName.Location = new Point(62, 58);
+            lbName.Location = new Point(38, 36);
+            lbName.Margin = new Padding(2, 0, 2, 0);
             lbName.Name = "lbName";
-            lbName.Size = new Size(190, 32);
+            lbName.Size = new Size(118, 20);
             lbName.TabIndex = 2;
             lbName.Text = "Bookshelf Name";
             // 
             // lbDescription
             // 
             lbDescription.AutoSize = true;
-            lbDescription.Location = new Point(62, 140);
+            lbDescription.Location = new Point(38, 88);
+            lbDescription.Margin = new Padding(2, 0, 2, 0);
             lbDescription.Name = "lbDescription";
-            lbDescription.Size = new Size(135, 32);
+            lbDescription.Size = new Size(85, 20);
             lbDescription.TabIndex = 3;
             lbDescription.Text = "Description";
             // 
             // btnCreate
             // 
-            btnCreate.Location = new Point(327, 371);
+            btnCreate.Location = new Point(296, 241);
+            btnCreate.Margin = new Padding(2);
             btnCreate.Name = "btnCreate";
-            btnCreate.Size = new Size(150, 46);
+            btnCreate.Size = new Size(92, 29);
             btnCreate.TabIndex = 4;
             btnCreate.Text = "Create";
             btnCreate.UseVisualStyleBackColor = true;
+            btnCreate.Click += btnCreate_Click_1;
             // 
-            // textBox2
+            // tb_BookShelfName
             // 
-            textBox2.Location = new Point(278, 140);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(436, 197);
-            textBox2.TabIndex = 5;
+            tb_BookShelfName.Location = new Point(201, 33);
+            tb_BookShelfName.Name = "tb_BookShelfName";
+            tb_BookShelfName.Size = new Size(285, 27);
+            tb_BookShelfName.TabIndex = 5;
+            tb_BookShelfName.TextChanged += tb_BookShelfName_TextChanged;
+            // 
+            // tb_Description
+            // 
+            tb_Description.Location = new Point(201, 97);
+            tb_Description.Multiline = true;
+            tb_Description.Name = "tb_Description";
+            tb_Description.Size = new Size(285, 139);
+            tb_Description.TabIndex = 6;
+            tb_Description.TextChanged += tb_Description_TextChanged;
             // 
             // CreateBookshelf
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(809, 450);
-            Controls.Add(textBox2);
+            ClientSize = new Size(498, 281);
+            Controls.Add(tb_Description);
+            Controls.Add(tb_BookShelfName);
             Controls.Add(btnCreate);
             Controls.Add(lbDescription);
             Controls.Add(lbName);
-            Controls.Add(textBox1);
             Controls.Add(label1);
+            Margin = new Padding(2);
             Name = "CreateBookshelf";
             Text = "CreateBookshelf";
+       
             ResumeLayout(false);
             PerformLayout();
         }
@@ -106,10 +115,10 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
         private Label lbName;
         private Label lbDescription;
         private Button btnCreate;
-        private TextBox textBox2;
+        private TextBox tb_BookShelfName;
+        private TextBox tb_Description;
     }
 }
