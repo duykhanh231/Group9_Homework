@@ -20,8 +20,6 @@ namespace Client
 
     public partial class BookDetails : Form
     {
-        string[] Scopes = { BooksService.Scope.Books };
-        string ApplicationName = "Google Books API C# Example";
         public BookDetails(string title, string authors, string description)
         {
             InitializeComponent();
@@ -33,52 +31,26 @@ namespace Client
 
         }
 
-        private void btnAddToShelf_Click(object sender, EventArgs e)
+        public void btnAddToShelf_Click(object sender, EventArgs e)
         {
-            
-            UserCredential credential;
+            CreateBookshelf createBookshelf = new CreateBookshelf();
+            string name = createBookshelf.bookshelfname;
+            string volumeID = "2508";
 
-            
-            using (var stream = new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
-            {
-                
-                string credPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), ".credentials/books-api-dotnet-quickstart");
-                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(GoogleClientSecrets.Load(stream).Secrets, Scopes, "user", CancellationToken.None, new FileDataStore(credPath, true)).Result;
-                Console.WriteLine("Credential file saved to: " + credPath);
-            }
-
-            
-            var Service = new BooksService(new BaseClientService.Initializer()
-            {
-                HttpClientInitializer = credential,
-                ApplicationName = ApplicationName,
-            });
-
-            string bookshelfID = "2508";
-            string volumneID = "ABCDEF";
-            AddBookToLibrary(Service, bookshelfID,volumneID);
+            AddBookToLibrary(name, volumeID);
         }
 
-        static void AddBookToLibrary(BooksService service, string bookshelfId, string volumeId)
+        static async void AddBookToLibrary(string bookshelfname, string volumeID)
         {
-
-            try
+            var Service = new BooksService(new BaseClientService.Initializer()
             {
-                
-                var request = service.Mylibrary.Bookshelves.AddVolume(bookshelfId, volumeId);
+                ApiKey = "AIzaSyBxAT0Lx1JgyO91B5OxH52ZXsU_xMl2htU",
+                ApplicationName = "BookManagementApp"
+            });
 
-                var bookshelf = request.Execute();
-
-                
-                var bookRequest = service.Mylibrary.Bookshelves.AddVolume(bookshelfId, bookshelfId);
-
-                var response = bookRequest.Execute();
-                Console.WriteLine($"Added book {volumeId} to your bookshelf.");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error adding book: " + e.Message);
-            }
+            var request = Service.Mylibrary.Bookshelves.AddVolume(bookshelfname,volumeID);
+            await request.ExecuteAsync();
+            MessageBox.Show("Book Added successful!");
         }
 
         private void BookDetails_Load(object sender, EventArgs e)
@@ -88,45 +60,23 @@ namespace Client
 
         private void btnRemoveFromShelf_Click(object sender, EventArgs e)
         {
-            UserCredential credential;
+            CreateBookshelf createBookshelf = new CreateBookshelf();
+            string name = createBookshelf.bookshelfname;
+            string volumeID = "2508";
 
-            
-            using (var stream = new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
-            {
-               
-                string credPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), ".credentials/books-api-dotnet-quickstart");
-                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(GoogleClientSecrets.Load(stream).Secrets,Scopes,"user",CancellationToken.None,new FileDataStore(credPath, true)).Result;
-                Console.WriteLine("Credential file saved to: " + credPath);
-            }
-
-            
-            var service = new BooksService(new BaseClientService.Initializer()
-            {
-                HttpClientInitializer = credential,
-                ApplicationName = ApplicationName,
-            });
-
-            
-            string bookshelfId = "1001"; 
-            string volumeId = "zyTCAlFPjgY"; 
-
-            
-            RemoveBookFromBookshelf(service, bookshelfId, volumeId);
+            RemoveBookFromBookshelf(name, volumeID);
         }
 
-        static void RemoveBookFromBookshelf(BooksService service, string bookshelfId, string volumeId)
+        static async void RemoveBookFromBookshelf( string bookshelfname, string volumeId)
         {
-            try
+            var Service = new BooksService(new BaseClientService.Initializer()
             {
-                
-                var request = service.Mylibrary.Bookshelves.RemoveVolume(bookshelfId, volumeId);
-                request.Execute(); 
-                Console.WriteLine($"Sách với ID {volumeId} đã bị xóa khỏi kệ sách {bookshelfId}.");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Lỗi khi xóa sách: " + e.Message);
-            }
+                ApiKey = "AIzaSyBxAT0Lx1JgyO91B5OxH52ZXsU_xMl2htU",
+                ApplicationName = "BookManagementApp"
+            });
+
+            var request = Service.Mylibrary.Bookshelves.RemoveVolume(bookshelfname, volumeId);
+            await request.ExecuteAsync();
         }
 
     }

@@ -22,6 +22,8 @@ namespace Client
 {
     public partial class CreateBookshelf : Form
     {
+        public string bookshelfname = "";
+        
         public CreateBookshelf()
         {
             InitializeComponent();
@@ -29,7 +31,7 @@ namespace Client
 
         private async void CreateBookshelf_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void tb_Description_TextChanged(object sender, EventArgs e)
@@ -44,44 +46,22 @@ namespace Client
 
         private async void btnCreate_Click_1(object sender, EventArgs e)
         {
-            string Bookshelfname = tb_BookShelfName.Text;
-            string Description = tb_Description.Text;
+            
+            bookshelfname = tb_BookShelfName.Text;
 
-            using (HttpClient client = new HttpClient())
+            var Service = new BooksService(new BaseClientService.Initializer()
             {
-                try
-                {
-                    string URL = "https://www.googleapis.com/books/v1/mylibrary/bookshelves";
+                ApiKey = "AIzaSyBxAT0Lx1JgyO91B5OxH52ZXsU_xMl2htU",
+                ApplicationName = "BookManagementApp"
+            });
 
-                    var jsonData = "{ \"Title\": \"BookShelfname\" , \"age\": \"Description\" }";
-
-                    var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-
-                    HttpResponseMessage response = await client.PostAsync(URL, content);
-
-                    if (response.IsSuccessStatusCode)
-                    {
-                        
-                        string responseData = await response.Content.ReadAsStringAsync();
-                        Console.WriteLine(responseData);
-                        MessageBox.Show("Create new bookshelf successful!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Error: " + response.StatusCode);
-                    }
-
-                    
-                }
-                catch (Exception ex)
-                {
-
-                }
-            }
+            MessageBox.Show("Create Book Shelf Successful!");
+            this.Close();
         }
 
-        
+        private void CreateBookshelf_Load_1(object sender, EventArgs e)
+        {
 
-        
+        }
     }
 }

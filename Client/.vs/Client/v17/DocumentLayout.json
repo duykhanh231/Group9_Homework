@@ -1,58 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Uni\\NT106\\Exercise\\Client\\",
+  "WorkspaceRootPath": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\clone gg book api\\client\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\bookshelfaddvolumerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookshelfaddvolumerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\clone gg book api\\client\\client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\clone gg book api\\client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\clone gg book api\\client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\clone gg book api\\client\\client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\clone gg book api\\client\\client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\createbookshelf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\createbookshelf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\clone gg book api\\client\\client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,159 +74,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookshelfAddVolumeRequest.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookshelfAddVolumeRequest.cs",
-              "RelativeDocumentMoniker": "Client\\BookshelfAddVolumeRequest.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookshelfAddVolumeRequest.cs",
-              "RelativeToolTip": "Client\\BookshelfAddVolumeRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T09:57:44.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateBookshelf.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\CreateBookshelf.cs",
-              "RelativeDocumentMoniker": "Client\\CreateBookshelf.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\CreateBookshelf.cs",
-              "RelativeToolTip": "Client\\CreateBookshelf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T09:29:13.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookSearch.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs",
-              "RelativeDocumentMoniker": "Client\\BookSearch.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs*",
-              "RelativeToolTip": "Client\\BookSearch.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwHQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:27:04.503Z",
+              "WhenOpened": "2024-11-17T15:02:25.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "Client\\Program.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Program.cs",
-              "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Title": "BookSearch.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\BookSearch.cs",
+              "RelativeDocumentMoniker": "Client\\BookSearch.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\BookSearch.cs",
+              "RelativeToolTip": "Client\\BookSearch.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T10:07:04.527Z",
+              "WhenOpened": "2024-11-17T14:30:11.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BookSearch.cs [Design]",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\BookSearch.cs",
               "RelativeDocumentMoniker": "Client\\BookSearch.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs [Design]*",
-              "RelativeToolTip": "Client\\BookSearch.cs [Design]*",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\BookSearch.cs [Design]",
+              "RelativeToolTip": "Client\\BookSearch.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T09:59:19.432Z",
+              "WhenOpened": "2024-11-17T14:30:09.888Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookDetails.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\BookDetails.cs",
+              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\BookDetails.cs",
+              "RelativeToolTip": "Client\\BookDetails.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwCcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T14:24:21.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookDetails.cs [Design]",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\BookDetails.cs",
+              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\BookDetails.cs [Design]",
+              "RelativeToolTip": "Client\\BookDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T14:24:20.782Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "NavForm.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs",
-              "RelativeDocumentMoniker": "Client\\NavForm.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs",
-              "RelativeToolTip": "Client\\NavForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreateBookshelf.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\CreateBookshelf.cs",
+              "RelativeDocumentMoniker": "Client\\CreateBookshelf.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\CreateBookshelf.cs",
+              "RelativeToolTip": "Client\\CreateBookshelf.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAxwDoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:30:05.784Z",
+              "WhenOpened": "2024-11-17T14:24:08.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NavForm.cs [Design]",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs",
-              "RelativeDocumentMoniker": "Client\\NavForm.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs [Design]",
-              "RelativeToolTip": "Client\\NavForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:29:58.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Client.csproj",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
-              "RelativeDocumentMoniker": "Client\\Client.csproj",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
-              "RelativeToolTip": "Client\\Client.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-17T12:29:39.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BookDetails.cs [Design]",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
-              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs [Design]",
-              "RelativeToolTip": "Client\\BookDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T09:51:33.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookDetails.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
-              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
-              "RelativeToolTip": "Client\\BookDetails.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAmwDkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T09:51:35.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "CreateBookshelf.cs [Design]",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\CreateBookshelf.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\CreateBookshelf.cs",
               "RelativeDocumentMoniker": "Client\\CreateBookshelf.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\CreateBookshelf.cs [Design]",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\Client\\Client\\CreateBookshelf.cs [Design]",
               "RelativeToolTip": "Client\\CreateBookshelf.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T09:16:28.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Client\\LoginForm.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Client\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:28:02.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateBookshelf.Designer.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\CreateBookshelf.Designer.cs",
-              "RelativeDocumentMoniker": "Client\\CreateBookshelf.Designer.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\CreateBookshelf.Designer.cs",
-              "RelativeToolTip": "Client\\CreateBookshelf.Designer.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAqwG0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T09:35:21.152Z"
+              "WhenOpened": "2024-11-17T14:24:06.575Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

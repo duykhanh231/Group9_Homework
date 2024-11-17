@@ -43,3 +43,26 @@ D:\Uni\NT106\Exercise\TCPSERVER\TCPSERVER\obj\Debug\net8.0\refint\TCPSERVER.dll
 D:\Uni\NT106\Exercise\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.pdb
 D:\Uni\NT106\Exercise\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.genruntimeconfig.cache
 D:\Uni\NT106\Exercise\TCPSERVER\TCPSERVER\obj\Debug\net8.0\ref\TCPSERVER.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\TCPSERVER.exe
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\TCPSERVER.deps.json
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\TCPSERVER.runtimeconfig.json
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\TCPSERVER.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\TCPSERVER.pdb
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.csproj.AssemblyReference.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.AssemblyInfoInputs.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.AssemblyInfo.cs
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.csproj.CoreCompileInputs.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.sourcelink.json
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.csproj.Up2Date
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\refint\TCPSERVER.dll
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.pdb
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\TCPSERVER.genruntimeconfig.cache
+D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\obj\Debug\net8.0\ref\TCPSERVER.dll

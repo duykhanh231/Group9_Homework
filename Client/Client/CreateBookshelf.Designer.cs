@@ -107,7 +107,7 @@
             Margin = new Padding(2);
             Name = "CreateBookshelf";
             Text = "CreateBookshelf";
-       
+            Load += CreateBookshelf_Load_1;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Uni\\NT106\\Exercise\\TCPSERVER\\",
+  "WorkspaceRootPath": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\TCPSERVER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AD8DF79-4981-46D0-B5A5-57858E1CC548}|TCPSERVER\\TCPSERVER.csproj|d:\\uni\\nt106\\exercise\\tcpserver\\tcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AD8DF79-4981-46D0-B5A5-57858E1CC548}|TCPSERVER\\TCPSERVER.csproj|d:\\baitapuit\\lap trinh mang can ban\\clone gg book api\\tcpserver\\tcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AD8DF79-4981-46D0-B5A5-57858E1CC548}|TCPSERVER\\TCPSERVER.csproj|solutionrelative:tcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -52,9 +52,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\TCPSERVER\\TCPSERVER\\Program.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\TCPSERVER\\TCPSERVER\\Program.cs",
               "RelativeDocumentMoniker": "TCPSERVER\\Program.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\TCPSERVER\\TCPSERVER\\Program.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone GG Book API\\TCPSERVER\\TCPSERVER\\Program.cs",
               "RelativeToolTip": "TCPSERVER\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
