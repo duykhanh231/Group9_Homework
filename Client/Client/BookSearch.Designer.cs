@@ -38,18 +38,16 @@
             // 
             // txtSearch
             // 
-            txtSearch.Location = new Point(50, 30);
-            txtSearch.Margin = new Padding(2, 2, 2, 2);
+            txtSearch.Location = new Point(81, 48);
             txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(435, 27);
+            txtSearch.Size = new Size(704, 39);
             txtSearch.TabIndex = 0;
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(502, 28);
-            btnSearch.Margin = new Padding(2, 2, 2, 2);
+            btnSearch.Location = new Point(816, 45);
             btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(92, 29);
+            btnSearch.Size = new Size(150, 46);
             btnSearch.TabIndex = 1;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
@@ -57,29 +55,27 @@
             // 
             // dgvBooks
             // 
+            dgvBooks.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBooks.Location = new Point(50, 109);
-            dgvBooks.Margin = new Padding(2, 2, 2, 2);
+            dgvBooks.Location = new Point(81, 174);
             dgvBooks.Name = "dgvBooks";
             dgvBooks.RowHeadersWidth = 82;
-            dgvBooks.Size = new Size(544, 331);
+            dgvBooks.Size = new Size(884, 530);
             dgvBooks.TabIndex = 2;
             dgvBooks.CellContentClick += DataGridView1_CellContentClick;
             // 
             // pgbBookSearch
             // 
-            pgbBookSearch.Location = new Point(50, 464);
-            pgbBookSearch.Margin = new Padding(2, 2, 2, 2);
+            pgbBookSearch.Location = new Point(81, 742);
             pgbBookSearch.Name = "pgbBookSearch";
-            pgbBookSearch.Size = new Size(544, 29);
+            pgbBookSearch.Size = new Size(884, 46);
             pgbBookSearch.TabIndex = 3;
             // 
             // btnCreateBookshelf
             // 
-            btnCreateBookshelf.Location = new Point(419, 68);
-            btnCreateBookshelf.Margin = new Padding(2, 2, 2, 2);
+            btnCreateBookshelf.Location = new Point(681, 109);
             btnCreateBookshelf.Name = "btnCreateBookshelf";
-            btnCreateBookshelf.Size = new Size(175, 29);
+            btnCreateBookshelf.Size = new Size(284, 46);
             btnCreateBookshelf.TabIndex = 4;
             btnCreateBookshelf.Text = "Create new bookshelf";
             btnCreateBookshelf.UseVisualStyleBackColor = true;
@@ -87,15 +83,14 @@
             // 
             // BookSearch
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(638, 514);
+            ClientSize = new Size(1037, 822);
             Controls.Add(btnCreateBookshelf);
             Controls.Add(pgbBookSearch);
             Controls.Add(dgvBooks);
             Controls.Add(btnSearch);
             Controls.Add(txtSearch);
-            Margin = new Padding(2, 2, 2, 2);
             Name = "BookSearch";
             Load += BookSearch_Load;
             ((System.ComponentModel.ISupportInitialize)dgvBooks).EndInit();

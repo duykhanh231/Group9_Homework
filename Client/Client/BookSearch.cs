@@ -30,7 +30,7 @@ namespace Client
 
             for (int i = 0; i <= 100; i++)
             {
-                await Task.Delay(50);
+                await Task.Delay(1);
                 pgbBookSearch.Value = i;
             }
 
@@ -39,6 +39,8 @@ namespace Client
 
         private async void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            await LoadDataWithProgress();
+
             if (e.RowIndex >= 0)
             {
                 var selectedBookId = dgvBooks.Rows[e.RowIndex].Cells["Id"].Value.ToString();
@@ -55,7 +57,6 @@ namespace Client
 
         private async Task<(string Title, string Authors, string Description)> GetBookDetails(string volumeId)
         {
-            await LoadDataWithProgress();
 
             var service = new BooksService(new BaseClientService.Initializer()
             {
@@ -73,7 +74,6 @@ namespace Client
 
         private async Task SearchBooks(string query)
         {
-            await LoadDataWithProgress();
 
             var service = new BooksService(new BaseClientService.Initializer()
             {
@@ -114,6 +114,7 @@ namespace Client
 
         private async void btnSearch_Click(object sender, EventArgs e)
         {
+            await LoadDataWithProgress();
             await SearchBooks(txtSearch.Text);
         }
 

@@ -55,7 +55,7 @@ namespace Client
             });
 
             string bookshelfID = "2508";
-            string volumneID = "ABCDEF"
+            string volumneID = "ABCDEF";
             AddBookToLibrary(Service, bookshelfID,volumneID);
         }
 
