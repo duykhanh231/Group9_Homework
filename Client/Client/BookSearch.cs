@@ -23,6 +23,20 @@ namespace Client
             InitializeComponent();
         }
 
+        private async Task LoadDataWithProgress()
+        {
+            pgbBookSearch.Visible = true;
+            pgbBookSearch.Value = 0;
+
+            for (int i = 0; i <= 100; i++)
+            {
+                await Task.Delay(50);
+                pgbBookSearch.Value = i;
+            }
+
+            pgbBookSearch.Visible = false;
+        }
+
         private async void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -41,7 +55,7 @@ namespace Client
 
         private async Task<(string Title, string Authors, string Description)> GetBookDetails(string volumeId)
         {
-            pgbBookSearch.Visible = true;
+            await LoadDataWithProgress();
 
             var service = new BooksService(new BaseClientService.Initializer()
             {
@@ -51,7 +65,6 @@ namespace Client
 
             var bookDetails = await service.Volumes.Get(volumeId).ExecuteAsync();
 
-            pgbBookSearch.Visible = false;
 
             return (bookDetails.VolumeInfo.Title,
                     string.Join(", ", bookDetails.VolumeInfo.Authors ?? new List<string> { "Unknown Author" }),
@@ -60,7 +73,8 @@ namespace Client
 
         private async Task SearchBooks(string query)
         {
-            pgbBookSearch.Visible = true;
+            await LoadDataWithProgress();
+
             var service = new BooksService(new BaseClientService.Initializer()
             {
                 ApiKey = "AIzaSyBxAT0Lx1JgyO91B5OxH52ZXsU_xMl2htU",
@@ -96,7 +110,6 @@ namespace Client
                 MessageBox.Show($"An error occurred: {ex.Message}");
             }
 
-            pgbBookSearch.Visible = false;
         }
 
         private async void btnSearch_Click(object sender, EventArgs e)
@@ -108,5 +121,6 @@ namespace Client
         {
 
         }
+
     }
 }
