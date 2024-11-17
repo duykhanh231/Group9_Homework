@@ -55,6 +55,7 @@
             // 
             // dgvBooks
             // 
+            dgvBooks.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvBooks.Location = new Point(82, 174);
             dgvBooks.Name = "dgvBooks";

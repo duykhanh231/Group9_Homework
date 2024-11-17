@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Uni\\NT106\\Exercise\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\booksearch.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,7 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BookSearch.cs [Design]",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs",
               "RelativeDocumentMoniker": "Client\\BookSearch.cs",
@@ -143,22 +143,9 @@
               "RelativeDocumentMoniker": "Client\\BookSearch.Designer.cs",
               "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.Designer.cs*",
               "RelativeToolTip": "Client\\BookSearch.Designer.cs*",
-              "ViewState": "AgIAADUAAAAAAAAAAAASwEYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAASwEcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T10:24:40.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookDetails.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
-              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
-              "RelativeToolTip": "Client\\BookDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T07:44:02.498Z",
               "EditorCaption": ""
             },
             {
@@ -176,15 +163,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BookSearch.cs",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs",
               "RelativeDocumentMoniker": "Client\\BookSearch.cs",
               "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs*",
               "RelativeToolTip": "Client\\BookSearch.cs*",
-              "ViewState": "AgIAADUAAAAAAAAAAAAnwEsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAvwEsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T15:59:46.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookDetails.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
+              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
+              "RelativeToolTip": "Client\\BookDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:44:02.498Z",
               "EditorCaption": ""
             },
             {
