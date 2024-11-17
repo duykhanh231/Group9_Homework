@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TCPSERVER
-build_property.ProjectDir = D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\TCPSERVER\TCPSERVER\
+build_property.ProjectDir = D:\Uni\NT106\Exercise\TCPSERVER\TCPSERVER\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

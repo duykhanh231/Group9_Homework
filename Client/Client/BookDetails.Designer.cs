@@ -42,7 +42,6 @@
             rtbBookDetails.Size = new Size(519, 282);
             rtbBookDetails.TabIndex = 0;
             rtbBookDetails.Text = "";
-            rtbBookDetails.TextChanged += rtbBookDetails_TextChanged;
             // 
             // btnAddToShelf
             // 
@@ -86,7 +85,6 @@
             Margin = new Padding(2);
             Name = "BookDetails";
             Text = "BookDetail";
-            Load += BookDetails_Load;
             ResumeLayout(false);
         }
 

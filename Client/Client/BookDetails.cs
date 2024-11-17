@@ -1,83 +1,119 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Security.Policy;
-using System.Diagnostics;
-using Google.Apis.Auth.OAuth2;
 using Google.Apis.Books.v1;
-using Google.Apis.Books.v1.Data;
 using Google.Apis.Services;
-using Google.Apis.Util.Store;
-using Microsoft.VisualBasic.ApplicationServices;
+using Newtonsoft.Json;
+
 namespace Client
 {
-
     public partial class BookDetails : Form
     {
+        private static readonly HttpClient client = new HttpClient();
+        private const string apiKey = "AIzaSyBxAT0Lx1JgyO91B5OxH52ZXsU_xMl2htU";
+
         public BookDetails(string title, string authors, string description)
         {
             InitializeComponent();
             rtbBookDetails.Text = $"Title: {title}\nAuthors: {authors}\nDescription: {description}";
         }
 
-        private void rtbBookDetails_TextChanged(object sender, EventArgs e)
+        private async void btnAddToShelf_Click(object sender, EventArgs e)
         {
-
-        }
-
-        public void btnAddToShelf_Click(object sender, EventArgs e)
-        {
-            CreateBookshelf createBookshelf = new CreateBookshelf();
-            string name = createBookshelf.bookshelfname;
-            string volumeID = "2508";
-
-            AddBookToLibrary(name, volumeID);
-        }
-
-        static async void AddBookToLibrary(string bookshelfname, string volumeID)
-        {
-            var Service = new BooksService(new BaseClientService.Initializer()
+            string bookshelfId = await GetBookshelfIdAsync();
+            if (!string.IsNullOrEmpty(bookshelfId))
             {
-                ApiKey = "AIzaSyBxAT0Lx1JgyO91B5OxH52ZXsU_xMl2htU",
+                string volumeID = "2508"; // Replace with actual volume ID
+                await AddBookToLibrary(bookshelfId, volumeID);
+            }
+        }
+
+        private async void btnRemoveFromShelf_Click(object sender, EventArgs e)
+        {
+            string bookshelfId = await GetBookshelfIdAsync();
+            if (!string.IsNullOrEmpty(bookshelfId))
+            {
+                string volumeID = "2508";
+                await RemoveBookFromBookshelf(bookshelfId, volumeID);
+            }
+        }
+
+        private async Task<string> GetBookshelfIdAsync()
+        {
+            string url = $"https://www.googleapis.com/books/v1/mylibrary/bookshelves?key={apiKey}";
+
+            try
+            {
+                var response = await client.GetStringAsync(url);
+                var bookshelvesResponse = JsonConvert.DeserializeObject<Bookshelves>(response);
+
+                if (bookshelvesResponse.Items != null && bookshelvesResponse.Items.Count > 0)
+                {
+                    return bookshelvesResponse.Items[0].Id;
+                }
+                else
+                {
+                    MessageBox.Show("No bookshelves found.");
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error retrieving bookshelves: {ex.Message}");
+                return null;
+            }
+        }
+
+        private async Task AddBookToLibrary(string bookshelfId, string volumeId)
+        {
+            var service = InitializeService();
+            try
+            {
+                var request = service.Mylibrary.Bookshelves.AddVolume(bookshelfId, volumeId);
+                await request.ExecuteAsync();
+                MessageBox.Show("Book added successfully!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error adding book: {ex.Message}");
+            }
+        }
+
+        private async Task RemoveBookFromBookshelf(string bookshelfId, string volumeId)
+        {
+            var service = InitializeService();
+            try
+            {
+                var request = service.Mylibrary.Bookshelves.RemoveVolume(bookshelfId, volumeId);
+                await request.ExecuteAsync();
+                MessageBox.Show("Book removed successfully!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error removing book: {ex.Message}");
+            }
+        }
+
+        private BooksService InitializeService()
+        {
+            return new BooksService(new BaseClientService.Initializer()
+            {
+                ApiKey = apiKey,
                 ApplicationName = "BookManagementApp"
             });
-
-            var request = Service.Mylibrary.Bookshelves.AddVolume(bookshelfname,volumeID);
-            await request.ExecuteAsync();
-            MessageBox.Show("Book Added successful!");
         }
+    }
 
-        private void BookDetails_Load(object sender, EventArgs e)
-        {
+    public class Bookshelves
+    {
+        public List<Bookshelf> Items { get; set; }
+    }
 
-        }
-
-        private void btnRemoveFromShelf_Click(object sender, EventArgs e)
-        {
-            CreateBookshelf createBookshelf = new CreateBookshelf();
-            string name = createBookshelf.bookshelfname;
-            string volumeID = "2508";
-
-            RemoveBookFromBookshelf(name, volumeID);
-        }
-
-        static async void RemoveBookFromBookshelf( string bookshelfname, string volumeId)
-        {
-            var Service = new BooksService(new BaseClientService.Initializer()
-            {
-                ApiKey = "AIzaSyBxAT0Lx1JgyO91B5OxH52ZXsU_xMl2htU",
-                ApplicationName = "BookManagementApp"
-            });
-
-            var request = Service.Mylibrary.Bookshelves.RemoveVolume(bookshelfname, volumeId);
-            await request.ExecuteAsync();
-        }
-
+    public class Bookshelf
+    {
+        public string Id { get; set; }
+        public string Title { get; set; }
     }
 }

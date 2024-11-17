@@ -56,7 +56,6 @@ namespace Client
             });
 
             MessageBox.Show("Create Book Shelf Successful!");
-            this.Close();
         }
 
         private void CreateBookshelf_Load_1(object sender, EventArgs e)
