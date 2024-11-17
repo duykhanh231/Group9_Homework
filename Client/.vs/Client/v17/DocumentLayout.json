@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\api\\googlebookapi\\client\\client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\api\\googlebookapi\\client\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\api\\googlebookapi\\client\\client\\bookshelfaddvolumerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookshelfaddvolumerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\api\\googlebookapi\\client\\client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\api\\googlebookapi\\client\\client\\createbookshelf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\createbookshelf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIA3wA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:07:04.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookSearch.cs [Design]",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\BookSearch.cs",
+              "RelativeDocumentMoniker": "Client\\BookSearch.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone Google API\\Client\\Client\\BookSearch.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Clone Google API\\Client\\Client\\BookSearch.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:59:19.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookshelfAddVolumeRequest.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\BookshelfAddVolumeRequest.cs",
+              "RelativeDocumentMoniker": "Client\\BookshelfAddVolumeRequest.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\BookshelfAddVolumeRequest.cs",
+              "RelativeToolTip": "Client\\BookshelfAddVolumeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:57:44.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookDetails.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\BookDetails.cs",
+              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\BookDetails.cs",
+              "RelativeToolTip": "Client\\BookDetails.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:51:35.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookDetails.cs [Design]",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\BookDetails.cs",
+              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone Google API\\Client\\Client\\BookDetails.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Clone Google API\\Client\\Client\\BookDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:51:33.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateBookshelf.Designer.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\CreateBookshelf.Designer.cs",
+              "RelativeDocumentMoniker": "Client\\CreateBookshelf.Designer.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\CreateBookshelf.Designer.cs",
+              "RelativeToolTip": "Client\\CreateBookshelf.Designer.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwG0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:35:21.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateBookshelf.cs",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\CreateBookshelf.cs",
+              "RelativeDocumentMoniker": "Client\\CreateBookshelf.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\CreateBookshelf.cs",
+              "RelativeToolTip": "Client\\CreateBookshelf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:29:13.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateBookshelf.cs [Design]",
+              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\API\\GoogleBookAPI\\Client\\Client\\CreateBookshelf.cs",
+              "RelativeDocumentMoniker": "Client\\CreateBookshelf.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Clone Google API\\Client\\Client\\CreateBookshelf.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Clone Google API\\Client\\Client\\CreateBookshelf.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:16:28.231Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

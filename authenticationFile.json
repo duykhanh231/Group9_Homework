@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "famous-biplane-442003-b9",
+  "private_key_id": "61cc8ef036587240c0a13e4520027256d9fe748e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDlQUD2CtGHfNmN\nkpwaeQ1ujz1shffXJEUNrGmN03e7hRxqrRcdJd6hZdfWuGrOglr6dQAeaRvzaYAe\nEpaDlCTKk3PumsMVFpYRxoFbhJrBA4193N1lRE/PVM6+vjlrQrSYa8jAyieDcUys\nnFtndjJ+9j62q2bZ6Mv0hun1nRJ6WzlfjAyccfDBbakftL0XF2NT+AO++wDWQITM\n+5LulTXVv4hMtgJD6czfwhZRRSDg9JrAozF0lH68yRvKvQAhWJQ0ldiZe7SJfTRm\n2tCsotyFafayWAKqrekpIFSkO5wncCV98drC8/qzKB+zLMusdxreAe4foCEUX+lz\nmHZf3csLAgMBAAECggEAKCeY0D+u2ZNlq6VtUDm5v465TIPemEFTEwUK6/uJMkAr\nbQfqT4GtkAl9l69vjcJJWysZHTp92dG1zg6lbGCLXSwcl0NmPhBZsr1ZNQVx8bLE\nmrIP2UfwzrjlCYXaGs5xQW1HmXUPHLfAnU85t1J9n71T2L0G484hwy/KVOnxLZrt\n5C5RwaG4FYYvWZlzj8vRr3FXBIxxe67jprc9bQZzJrZ48WhSaMtDtrIGW54G/imh\n26hQWHCKzJ0HW894AUJWHu9mKdVVaksKhCEBdnS9pM6Cbvx8SZxWzdaaez4p1TJM\nOuDVxWfIZFTi8QHql4ABdm4AHPtrsjMOPLuJzpX3OQKBgQD/D8Ycr6xBb4YW6FAz\nA2JYtPKJ+f+Kl/XBU1jRJFhvXX3qaZndNjNc51vBBawpe+R8sZe1NLvjc66OfPAO\nmoDaH4nUdc5xUr4LwNHuXOzZjs+Psdu3yEpqhaphefO9MrAPlt2iXCe/1FqspTkC\nUBDxPqUBoKXDrkz3R20DyQRRDQKBgQDmGSyXxI1EpV+Z5JdiJs+oqq8/V35TsgG3\n6M/H31ZlV7oH3fPOJERPDdZgDXqfY3F8V+wyNq7Dcn/S+kjxxzKNhH+rh6qDj/Fi\n3852hHjWCSHhEdw6VZtlQV6Gq9xl2bISFcyj2GPGGLxh85hQeh0gLeHURuCohNsS\nHPcMlDkWdwKBgQCF71SKz7zWh6eT893ZS9ei2THbPknwDyffotKq0DkYEbIDG/zN\n6p5CFMNbsozbI9GxoNgXMV/QanipHfY41O0AnTsVM996JobhSRlz35wICjP4Mt87\nvJNHKHV1xkI1gZ5uMTyk+1tsIiiTLBepnT2oUMr49dDV1ntYBku6hx4bKQKBgEa7\nYlvdDdgWRgcWn/qKF7evkGOWT70GsUSJiqXUX8iTaRpV/kZWG7F5fXbVbeZlOVOR\n64ecC6kFH4oJajb4lu+t1VkzQRVkQD22ss739fVFpWZ8iQhdnIFJ0PbxCbU9cGHi\n1Z9gO3t/yxkJOr8yapWjxRHuH81t2bH9uWvifJINAoGAAzn1EFxZLA3TNBqqpuO2\ne6NUqFf7oozyI0qqE55ePuOkhFxMPZ/Wa1ilCOB6/97T8TrMG4r2u/ZlFI8x9+/o\nvMHXxN7dlIJOLrMxD/O19vF+BCjQ2yAxjovzbzhK3Y4gSaiB8X3Azzv9bc9OJ0vF\ntghwUFKMRmDHbn+/lj2Hp5A=\n-----END PRIVATE KEY-----\n",
+  "client_email": "booksapi@famous-biplane-442003-b9.iam.gserviceaccount.com",
+  "client_id": "109399683019003797481",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/booksapi%40famous-biplane-442003-b9.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
