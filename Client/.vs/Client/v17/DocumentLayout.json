@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "D:\\Uni\\NT106\\Exercise\\Client\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\booksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\createbookshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +55,8 @@
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\profileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\signupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\profileform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,7 +85,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -92,16 +116,21 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProfileForm.cs",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.cs",
-              "RelativeDocumentMoniker": "Client\\ProfileForm.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.cs",
-              "RelativeToolTip": "Client\\ProfileForm.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAjAAAA",
+              "DocumentIndex": 3,
+              "Title": "BookDetails.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
+              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs*",
+              "RelativeToolTip": "Client\\BookDetails.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:24:37.482Z"
+              "WhenOpened": "2024-11-17T07:44:02.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,39 +140,148 @@
               "RelativeDocumentMoniker": "Client\\NavForm.cs",
               "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs",
               "RelativeToolTip": "Client\\NavForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T13:15:39.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "BookSearch.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs",
+              "RelativeDocumentMoniker": "Client\\BookSearch.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs*",
+              "RelativeToolTip": "Client\\BookSearch.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwC8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:59:46.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookSearch.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs",
+              "RelativeDocumentMoniker": "Client\\BookSearch.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookSearch.cs [Design]*",
+              "RelativeToolTip": "Client\\BookSearch.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:46:53.623Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookDetails.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs",
+              "RelativeDocumentMoniker": "Client\\BookDetails.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\BookDetails.cs [Design]*",
+              "RelativeToolTip": "Client\\BookDetails.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:09:39.741Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs",
               "RelativeDocumentMoniker": "Client\\LoginForm.cs",
               "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs",
               "RelativeToolTip": "Client\\LoginForm.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAuwF0AAAAAAAAA",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAjwEkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T13:18:18.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Client\\LoginForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Client\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:32:29.744Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavForm.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs",
+              "RelativeDocumentMoniker": "Client\\NavForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs [Design]",
+              "RelativeToolTip": "Client\\NavForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:31:57.805Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfileForm.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.cs",
+              "RelativeDocumentMoniker": "Client\\ProfileForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.cs [Design]",
+              "RelativeToolTip": "Client\\ProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:22:40.694Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Client.csproj",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
+              "RelativeDocumentMoniker": "Client\\Client.csproj",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Client.csproj",
+              "RelativeToolTip": "Client\\Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T07:17:35.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateBookshelf.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\CreateBookshelf.cs",
+              "RelativeDocumentMoniker": "Client\\CreateBookshelf.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\CreateBookshelf.cs [Design]",
+              "RelativeToolTip": "Client\\CreateBookshelf.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:05:26.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfileForm.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.cs",
+              "RelativeDocumentMoniker": "Client\\ProfileForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.cs",
+              "RelativeToolTip": "Client\\ProfileForm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:24:37.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
               "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Program.cs",
               "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T16:20:02.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "SignupForm.cs",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\SignupForm.cs",
               "RelativeDocumentMoniker": "Client\\SignupForm.cs",
@@ -156,42 +294,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NavForm.cs [Design]",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs",
-              "RelativeDocumentMoniker": "Client\\NavForm.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\NavForm.cs [Design]",
-              "RelativeToolTip": "Client\\NavForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:31:57.805Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProfileForm.cs [Design]",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.cs",
-              "RelativeDocumentMoniker": "Client\\ProfileForm.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.cs [Design]",
-              "RelativeToolTip": "Client\\ProfileForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:22:40.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "SignupForm.Designer.cs",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\SignupForm.Designer.cs",
               "RelativeDocumentMoniker": "Client\\SignupForm.Designer.cs",
               "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\SignupForm.Designer.cs",
               "RelativeToolTip": "Client\\SignupForm.Designer.cs",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAewJcAAAAhAAAA",
+              "ViewState": "AgIAABYAAAAAAAAAAAAewBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T13:23:41.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "SignupForm.cs [Design]",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\SignupForm.cs",
               "RelativeDocumentMoniker": "Client\\SignupForm.cs",
@@ -202,50 +317,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Client\\LoginForm.cs",
-              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Client\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:32:29.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ProfileForm.Designer.cs",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.Designer.cs",
               "RelativeDocumentMoniker": "Client\\ProfileForm.Designer.cs",
               "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\ProfileForm.Designer.cs",
               "RelativeToolTip": "Client\\ProfileForm.Designer.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAewI4AAAAzAAAA",
+              "ViewState": "AgIAABYAAAAAAAAAAAAewBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T16:28:46.485Z"
+              "WhenOpened": "2024-10-20T16:28:46.485Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "PlayfairCipher.cpp",
               "DocumentMoniker": "D:\\Uni\\NT101\\Practice\\PlayfairCipher\\PlayfairCipher\\PlayfairCipher.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\NT101\\Practice\\PlayfairCipher\\PlayfairCipher\\PlayfairCipher.cpp",
               "ToolTip": "D:\\Uni\\NT101\\Practice\\PlayfairCipher\\PlayfairCipher\\PlayfairCipher.cpp",
               "RelativeToolTip": "..\\..\\..\\NT101\\Practice\\PlayfairCipher\\PlayfairCipher\\PlayfairCipher.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-20T15:12:07.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "Client\\LoginForm.Designer.cs",
               "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.Designer.cs",
               "RelativeToolTip": "Client\\LoginForm.Designer.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAewEgAAAAAAAAA",
+              "ViewState": "AgIAADgAAAAAAAAAAAAewEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:46:25.949Z"
+              "WhenOpened": "2024-10-20T13:46:25.949Z",
+              "EditorCaption": ""
             }
           ]
         },

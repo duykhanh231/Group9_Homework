@@ -28,24 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            txtSearch = new TextBox();
             btnSearch = new Button();
             dgvBooks = new DataGridView();
-            Title = new DataGridViewTextBoxColumn();
-            Author = new DataGridViewTextBoxColumn();
-            ReleaseDate = new DataGridViewTextBoxColumn();
-            BookCode = new DataGridViewTextBoxColumn();
             pgbBookSearch = new ProgressBar();
             btnCreateBookshelf = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvBooks).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // txtSearch
             // 
-            textBox1.Location = new Point(82, 48);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(704, 39);
-            textBox1.TabIndex = 0;
+            txtSearch.Location = new Point(82, 48);
+            txtSearch.Name = "txtSearch";
+            txtSearch.Size = new Size(704, 39);
+            txtSearch.TabIndex = 0;
             // 
             // btnSearch
             // 
@@ -55,45 +51,17 @@
             btnSearch.TabIndex = 1;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // dgvBooks
             // 
             dgvBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBooks.Columns.AddRange(new DataGridViewColumn[] { Title, Author, ReleaseDate, BookCode });
             dgvBooks.Location = new Point(82, 174);
             dgvBooks.Name = "dgvBooks";
             dgvBooks.RowHeadersWidth = 82;
             dgvBooks.Size = new Size(884, 529);
             dgvBooks.TabIndex = 2;
-            dgvBooks.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // Title
-            // 
-            Title.HeaderText = "Title";
-            Title.MinimumWidth = 10;
-            Title.Name = "Title";
-            Title.Width = 200;
-            // 
-            // Author
-            // 
-            Author.HeaderText = "Author";
-            Author.MinimumWidth = 10;
-            Author.Name = "Author";
-            Author.Width = 200;
-            // 
-            // ReleaseDate
-            // 
-            ReleaseDate.HeaderText = "Release Date";
-            ReleaseDate.MinimumWidth = 10;
-            ReleaseDate.Name = "ReleaseDate";
-            ReleaseDate.Width = 200;
-            // 
-            // BookCode
-            // 
-            BookCode.HeaderText = "Book Code";
-            BookCode.MinimumWidth = 10;
-            BookCode.Name = "BookCode";
-            BookCode.Width = 200;
+            dgvBooks.CellContentClick += DataGridView1_CellContentClick;
             // 
             // pgbBookSearch
             // 
@@ -110,6 +78,7 @@
             btnCreateBookshelf.TabIndex = 4;
             btnCreateBookshelf.Text = "Create new bookshelf";
             btnCreateBookshelf.UseVisualStyleBackColor = true;
+            btnCreateBookshelf.Click += btnCreateBookshelf_Click;
             // 
             // BookSearch
             // 
@@ -120,7 +89,7 @@
             Controls.Add(pgbBookSearch);
             Controls.Add(dgvBooks);
             Controls.Add(btnSearch);
-            Controls.Add(textBox1);
+            Controls.Add(txtSearch);
             Name = "BookSearch";
             ((System.ComponentModel.ISupportInitialize)dgvBooks).EndInit();
             ResumeLayout(false);
@@ -129,13 +98,9 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox txtSearch;
         private Button btnSearch;
         private DataGridView dgvBooks;
-        private DataGridViewTextBoxColumn Title;
-        private DataGridViewTextBoxColumn Author;
-        private DataGridViewTextBoxColumn ReleaseDate;
-        private DataGridViewTextBoxColumn BookCode;
         private ProgressBar pgbBookSearch;
         private Button btnCreateBookshelf;
     }

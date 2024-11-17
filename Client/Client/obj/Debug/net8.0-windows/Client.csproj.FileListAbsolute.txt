@@ -18,3 +18,15 @@ D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.pdb
 D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.genruntimeconfig.cache
 D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\ref\Client.dll
 D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.ProfileForm.resources
+D:\Uni\NT106\Exercise\Client\Client\bin\Debug\net8.0-windows\Google.Apis.dll
+D:\Uni\NT106\Exercise\Client\Client\bin\Debug\net8.0-windows\Google.Apis.Auth.dll
+D:\Uni\NT106\Exercise\Client\Client\bin\Debug\net8.0-windows\Google.Apis.Books.v1.dll
+D:\Uni\NT106\Exercise\Client\Client\bin\Debug\net8.0-windows\Google.Apis.Core.dll
+D:\Uni\NT106\Exercise\Client\Client\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Uni\NT106\Exercise\Client\Client\bin\Debug\net8.0-windows\System.Management.dll
+D:\Uni\NT106\Exercise\Client\Client\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.csproj.AssemblyReference.cache
+D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.BookDetails.resources
+D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.BookSearch.resources
+D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.CreateBookshelf.resources
+D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.csproj.Up2Date

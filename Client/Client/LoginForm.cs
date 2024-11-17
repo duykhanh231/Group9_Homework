@@ -70,8 +70,8 @@ namespace Client
 
                             if (responseParts.Length == 5)
                             {
-                                ProfileForm profileForm = new ProfileForm(responseParts[1], responseParts[2], responseParts[3], responseParts[4]);
-                                profileForm.Show();
+                                BookSearch bookSearch = new BookSearch();
+                                bookSearch.Show();
                                 this.Hide();
                             }
                             else

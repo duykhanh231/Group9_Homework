@@ -12,9 +12,10 @@ namespace Client
 {
     public partial class BookDetails : Form
     {
-        public BookDetails()
+        public BookDetails(string title, string authors, string description)
         {
             InitializeComponent();
+            rtbBookDetails.Text = $"Title: {title}\nAuthors: {authors}\nDescription: {description}";
         }
     }
 }
