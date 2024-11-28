@@ -4,6 +4,8 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Data.SqlClient;
+using System.Net.Mail;
+using System.Security.Cryptography;
 
 public class Server
 {
@@ -55,6 +57,10 @@ public class Server
             {
                 Register(client, parts);
             }
+            else if (parts[0] == "PASSWORD_RESET")
+            {
+                PasswordReset(client, parts);
+            }    
             else
             {
                 Console.WriteLine("Invalid message type received.");
@@ -63,6 +69,20 @@ public class Server
         catch (Exception ex)
         {
             Console.WriteLine("Error in HandleClient: " + ex.Message);
+        }
+    }
+
+    private static string HashPassword(string password)
+    {
+        using (SHA256 sha256Hash = SHA256.Create())
+        {
+            byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
+            StringBuilder builder = new StringBuilder();
+            foreach (byte b in bytes)
+            {
+                builder.Append(b.ToString("x2"));
+            }
+            return builder.ToString();
         }
     }
 
@@ -83,13 +103,15 @@ public class Server
 
             Console.WriteLine("Received Username: " + receiveUsername);
 
+            string hashedPassword = HashPassword(receivePassword); 
+
             using (SqlConnection conn = new SqlConnection(connectionstring))
             {
                 conn.Open();
                 string query = "SELECT * FROM users WHERE Username = @username AND Password = @password";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@username", receiveUsername);
-                cmd.Parameters.AddWithValue("@password", receivePassword);
+                cmd.Parameters.AddWithValue("@password", hashedPassword); 
 
                 SqlDataReader datareader = cmd.ExecuteReader();
                 if (datareader.Read())
@@ -156,10 +178,11 @@ public class Server
                 {
                     datareader.Close();
 
+                    string hashedPassword = HashPassword(receivePassword); 
                     string insertQuery = "INSERT INTO users (Username, Password, Email, Fullname, Birthday) VALUES (@username, @password, @Email, @Fullname, @Birthday)";
                     SqlCommand cmdInsert = new SqlCommand(insertQuery, conn);
                     cmdInsert.Parameters.AddWithValue("@username", receiveUsername);
-                    cmdInsert.Parameters.AddWithValue("@password", receivePassword);
+                    cmdInsert.Parameters.AddWithValue("@password", hashedPassword); 
                     cmdInsert.Parameters.AddWithValue("@Email", receiveEmail);
                     cmdInsert.Parameters.AddWithValue("@Fullname", receiveFullname);
                     cmdInsert.Parameters.AddWithValue("@Birthday", receiveBirthday);
@@ -176,6 +199,95 @@ public class Server
         catch (Exception ex)
         {
             Console.WriteLine("Error in Register: " + ex.Message);
+        }
+    }
+
+    public static void PasswordReset(Socket client, string[] parts)
+    {
+        try
+        {
+            if (parts.Length != 2)
+            {
+                string response = "Invalid message format for password reset.";
+                byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                client.Send(responseBytes);
+                return;
+            }
+
+            string receiveEmail = parts[1];
+
+            using (SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                conn.Open();
+                string query = "SELECT * FROM users WHERE Email = @Email";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Email", receiveEmail);
+
+                SqlDataReader datareader = cmd.ExecuteReader();
+                if (datareader.Read())
+                {
+                    // Generate a new random password
+                    string newPassword = GenerateRandomPassword();
+
+                    // Update the password in the dtb
+                    datareader.Close();
+                    string updateQuery = "UPDATE users SET Password = @Password WHERE Email = @Email";
+                    SqlCommand cmdUpdate = new SqlCommand(updateQuery, conn);
+                    cmdUpdate.Parameters.AddWithValue("@Password", newPassword);
+                    cmdUpdate.Parameters.AddWithValue("@Email", receiveEmail);
+                    cmdUpdate.ExecuteNonQuery();
+
+                    SendEmail(receiveEmail, newPassword);
+
+                    string response = "Password reset successful! Check your email for the new password.";
+                    byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                    client.Send(responseBytes);
+                }
+                else
+                {
+                    string response = "Email not found!";
+                    byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                    client.Send(responseBytes);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error in PasswordReset: " + ex.Message);
+        }
+    }
+
+    private static string GenerateRandomPassword()
+    {
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+        Random random = new Random();
+        char[] password = new char[12];
+        for (int i = 0; i < password.Length; i++)
+        {
+            password[i] = chars[random.Next(chars.Length)];
+        }
+        return new string(password);
+    }
+
+    private static void SendEmail(string email, string newPassword)
+    {
+        try
+        {
+            using (var client = new SmtpClient("smtp.gmail.com"))
+            {
+                client.Port = 587;
+                client.Credentials = new NetworkCredential("nt106.gr11@gmail.com", "nsbt fmxj vzxz sgnj");
+                client.EnableSsl = true;
+
+                string subject = "Password Reset";
+                string body = $"Your new password is: {newPassword}\nPlease change it after logging in.";
+
+                client.Send("your-email@example.com", email, subject, body);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error sending email: " + ex.Message);
         }
     }
 }

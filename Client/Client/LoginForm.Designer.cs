@@ -34,6 +34,7 @@
             tbUsername = new TextBox();
             tbPass = new TextBox();
             btnLogin = new Button();
+            btnPasswordReset = new Button();
             SuspendLayout();
             // 
             // lbLogin
@@ -89,11 +90,22 @@
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
             // 
+            // btnPasswordReset
+            // 
+            btnPasswordReset.Location = new Point(321, 441);
+            btnPasswordReset.Name = "btnPasswordReset";
+            btnPasswordReset.Size = new Size(202, 46);
+            btnPasswordReset.TabIndex = 6;
+            btnPasswordReset.Text = "Forget password";
+            btnPasswordReset.UseVisualStyleBackColor = true;
+            btnPasswordReset.Click += btnPasswordReset_Click;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 464);
+            ClientSize = new Size(812, 528);
+            Controls.Add(btnPasswordReset);
             Controls.Add(btnLogin);
             Controls.Add(tbPass);
             Controls.Add(tbUsername);
@@ -114,5 +126,6 @@
         private TextBox tbUsername;
         private TextBox tbPass;
         private Button btnLogin;
+        private Button btnPasswordReset;
     }
 }

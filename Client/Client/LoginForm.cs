@@ -31,7 +31,7 @@ namespace Client
 
             string loginMessage = $"LOGIN|{username}|{hashedPass}";
             SendMessageToServer(loginMessage);
-            
+
         }
 
         private string HashPassword(string pass)
@@ -92,6 +92,10 @@ namespace Client
             }
         }
 
-
+        private void btnPasswordReset_Click(object sender, EventArgs e)
+        {
+            PasswordReset resetForm = new PasswordReset();
+            resetForm.Show();
+        }
     }
 }
