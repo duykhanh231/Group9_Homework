@@ -94,3 +94,4 @@ D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\Client\Client\obj\Debug\ne
 D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\Client\Client\obj\Debug\net8.0-windows\Client.pdb
 D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\Client\Client\obj\Debug\net8.0-windows\Client.genruntimeconfig.cache
 D:\BaitapUIT\Lap trinh mang can ban\Clone GG Book API\Client\Client\obj\Debug\net8.0-windows\ref\Client.dll
+D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.PasswordReset.resources

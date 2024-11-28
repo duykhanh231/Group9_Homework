@@ -16,6 +16,9 @@
     <Compile Update="NavForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PasswordReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ProfileForm.cs">
       <SubType>Form</SubType>
     </Compile>
