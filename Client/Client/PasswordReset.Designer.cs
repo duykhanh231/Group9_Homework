@@ -37,26 +37,30 @@
             // 
             lblEmail.AutoSize = true;
             lblEmail.Font = new Font("Segoe UI", 13.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblEmail.Location = new Point(45, 113);
+            lblEmail.Location = new Point(28, 71);
+            lblEmail.Margin = new Padding(2, 0, 2, 0);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(289, 50);
+            lblEmail.Size = new Size(189, 32);
             lblEmail.TabIndex = 0;
             lblEmail.Text = "Enter your email";
             // 
             // tbEmail
             // 
-            tbEmail.Location = new Point(367, 113);
+            tbEmail.Location = new Point(226, 71);
+            tbEmail.Margin = new Padding(2);
             tbEmail.Multiline = true;
             tbEmail.Name = "tbEmail";
-            tbEmail.Size = new Size(351, 50);
+            tbEmail.Size = new Size(218, 33);
             tbEmail.TabIndex = 1;
+            tbEmail.TextChanged += tbEmail_TextChanged;
             // 
             // btnSubmit
             // 
             btnSubmit.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSubmit.Location = new Point(308, 271);
+            btnSubmit.Location = new Point(190, 169);
+            btnSubmit.Margin = new Padding(2);
             btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(180, 58);
+            btnSubmit.Size = new Size(111, 36);
             btnSubmit.TabIndex = 2;
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = true;
@@ -64,14 +68,16 @@
             // 
             // PasswordReset
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(492, 281);
             Controls.Add(btnSubmit);
             Controls.Add(tbEmail);
             Controls.Add(lblEmail);
+            Margin = new Padding(2);
             Name = "PasswordReset";
             Text = "Password Reset";
+            Load += PasswordReset_Load;
             ResumeLayout(false);
             PerformLayout();
         }

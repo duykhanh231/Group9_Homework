@@ -57,5 +57,15 @@ namespace Client
                 MessageBox.Show("Error connecting to server: " + ex.Message);
             }
         }
+
+        private void tbEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PasswordReset_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

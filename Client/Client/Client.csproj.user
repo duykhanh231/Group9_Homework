@@ -7,6 +7,9 @@
     <Compile Update="BookSearch.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Change_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CreateBookshelf.cs">
       <SubType>Form</SubType>
     </Compile>

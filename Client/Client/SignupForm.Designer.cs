@@ -49,117 +49,131 @@
             // 
             lbSignup.AutoSize = true;
             lbSignup.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbSignup.Location = new Point(239, 47);
+            lbSignup.Location = new Point(147, 29);
+            lbSignup.Margin = new Padding(2, 0, 2, 0);
             lbSignup.Name = "lbSignup";
-            lbSignup.Size = new Size(457, 59);
+            lbSignup.Size = new Size(291, 37);
             lbSignup.TabIndex = 0;
             lbSignup.Text = "Create a new account";
             // 
             // lbUsername
             // 
             lbUsername.AutoSize = true;
-            lbUsername.Location = new Point(132, 144);
+            lbUsername.Location = new Point(81, 90);
+            lbUsername.Margin = new Padding(2, 0, 2, 0);
             lbUsername.Name = "lbUsername";
-            lbUsername.Size = new Size(121, 32);
+            lbUsername.Size = new Size(75, 20);
             lbUsername.TabIndex = 1;
             lbUsername.Text = "Username";
             // 
             // lbPass
             // 
             lbPass.AutoSize = true;
-            lbPass.Location = new Point(132, 209);
+            lbPass.Location = new Point(81, 131);
+            lbPass.Margin = new Padding(2, 0, 2, 0);
             lbPass.Name = "lbPass";
-            lbPass.Size = new Size(111, 32);
+            lbPass.Size = new Size(70, 20);
             lbPass.TabIndex = 2;
             lbPass.Text = "Password";
             // 
             // lbCfmPass
             // 
             lbCfmPass.AutoSize = true;
-            lbCfmPass.Location = new Point(132, 272);
+            lbCfmPass.Location = new Point(81, 170);
+            lbCfmPass.Margin = new Padding(2, 0, 2, 0);
             lbCfmPass.Name = "lbCfmPass";
-            lbCfmPass.Size = new Size(204, 32);
+            lbCfmPass.Size = new Size(127, 20);
             lbCfmPass.TabIndex = 3;
             lbCfmPass.Text = "Confirm Password";
             // 
             // lbEmail
             // 
             lbEmail.AutoSize = true;
-            lbEmail.Location = new Point(132, 334);
+            lbEmail.Location = new Point(81, 209);
+            lbEmail.Margin = new Padding(2, 0, 2, 0);
             lbEmail.Name = "lbEmail";
-            lbEmail.Size = new Size(71, 32);
+            lbEmail.Size = new Size(46, 20);
             lbEmail.TabIndex = 4;
             lbEmail.Text = "Email";
             // 
             // lbName
             // 
             lbName.AutoSize = true;
-            lbName.Location = new Point(132, 396);
+            lbName.Location = new Point(81, 248);
+            lbName.Margin = new Padding(2, 0, 2, 0);
             lbName.Name = "lbName";
-            lbName.Size = new Size(78, 32);
+            lbName.Size = new Size(49, 20);
             lbName.TabIndex = 5;
             lbName.Text = "Name";
             // 
             // lbBirth
             // 
             lbBirth.AutoSize = true;
-            lbBirth.Location = new Point(132, 455);
+            lbBirth.Location = new Point(81, 284);
+            lbBirth.Margin = new Padding(2, 0, 2, 0);
             lbBirth.Name = "lbBirth";
-            lbBirth.Size = new Size(102, 32);
+            lbBirth.Size = new Size(64, 20);
             lbBirth.TabIndex = 6;
             lbBirth.Text = "Birthday";
             // 
             // tbUsername
             // 
-            tbUsername.Location = new Point(418, 143);
+            tbUsername.Location = new Point(257, 89);
+            tbUsername.Margin = new Padding(2, 2, 2, 2);
             tbUsername.Name = "tbUsername";
-            tbUsername.Size = new Size(400, 39);
+            tbUsername.Size = new Size(248, 27);
             tbUsername.TabIndex = 7;
             // 
             // tbPass
             // 
-            tbPass.Location = new Point(418, 206);
+            tbPass.Location = new Point(257, 129);
+            tbPass.Margin = new Padding(2, 2, 2, 2);
             tbPass.Name = "tbPass";
             tbPass.PasswordChar = '*';
-            tbPass.Size = new Size(400, 39);
+            tbPass.Size = new Size(248, 27);
             tbPass.TabIndex = 8;
             // 
             // tbCfmPass
             // 
-            tbCfmPass.Location = new Point(418, 269);
+            tbCfmPass.Location = new Point(257, 168);
+            tbCfmPass.Margin = new Padding(2, 2, 2, 2);
             tbCfmPass.Name = "tbCfmPass";
             tbCfmPass.PasswordChar = '*';
-            tbCfmPass.Size = new Size(400, 39);
+            tbCfmPass.Size = new Size(248, 27);
             tbCfmPass.TabIndex = 9;
             // 
             // tbEmail
             // 
-            tbEmail.Location = new Point(418, 331);
+            tbEmail.Location = new Point(257, 207);
+            tbEmail.Margin = new Padding(2, 2, 2, 2);
             tbEmail.Name = "tbEmail";
-            tbEmail.Size = new Size(400, 39);
+            tbEmail.Size = new Size(248, 27);
             tbEmail.TabIndex = 10;
             // 
             // tbName
             // 
-            tbName.Location = new Point(418, 393);
+            tbName.Location = new Point(257, 246);
+            tbName.Margin = new Padding(2, 2, 2, 2);
             tbName.Name = "tbName";
-            tbName.Size = new Size(400, 39);
+            tbName.Size = new Size(248, 27);
             tbName.TabIndex = 11;
             // 
             // dtpBirth
             // 
             dtpBirth.CustomFormat = "dd/MM/yyyy";
             dtpBirth.Format = DateTimePickerFormat.Custom;
-            dtpBirth.Location = new Point(418, 450);
+            dtpBirth.Location = new Point(257, 281);
+            dtpBirth.Margin = new Padding(2, 2, 2, 2);
             dtpBirth.Name = "dtpBirth";
-            dtpBirth.Size = new Size(400, 39);
+            dtpBirth.Size = new Size(248, 27);
             dtpBirth.TabIndex = 12;
             // 
             // btnReg
             // 
-            btnReg.Location = new Point(312, 544);
+            btnReg.Location = new Point(192, 340);
+            btnReg.Margin = new Padding(2, 2, 2, 2);
             btnReg.Name = "btnReg";
-            btnReg.Size = new Size(150, 46);
+            btnReg.Size = new Size(92, 29);
             btnReg.TabIndex = 13;
             btnReg.Text = "Register";
             btnReg.UseVisualStyleBackColor = true;
@@ -167,10 +181,11 @@
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(515, 544);
+            btnLogin.Location = new Point(317, 340);
+            btnLogin.Margin = new Padding(2, 2, 2, 2);
             btnLogin.Name = "btnLogin";
             btnLogin.RightToLeft = RightToLeft.No;
-            btnLogin.Size = new Size(150, 46);
+            btnLogin.Size = new Size(92, 29);
             btnLogin.TabIndex = 14;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
@@ -178,9 +193,9 @@
             // 
             // SignupForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(921, 658);
+            ClientSize = new Size(567, 411);
             Controls.Add(btnLogin);
             Controls.Add(btnReg);
             Controls.Add(dtpBirth);
@@ -196,8 +211,10 @@
             Controls.Add(lbPass);
             Controls.Add(lbUsername);
             Controls.Add(lbSignup);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "SignupForm";
             Text = "Sign up";
+            Load += SignupForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -13,4 +13,9 @@ create table users
 
 
 select * from users;
+insert into users(Username,Password,Email,Fullname,Birthday)
+values('namanh','2508','namanh2508@gmail.com','namanh','2005-08-25')
 delete users;
+update users
+set Password = 'namanh1'
+where Password = '2508'

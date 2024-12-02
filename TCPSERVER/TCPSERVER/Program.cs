@@ -60,7 +60,11 @@ public class Server
             else if (parts[0] == "PASSWORD_RESET")
             {
                 PasswordReset(client, parts);
-            }    
+            }   
+            else if (parts[0] == "CHANGE_PASSWORD")
+            {
+                ChangePassword(client, parts);
+            }
             else
             {
                 Console.WriteLine("Invalid message type received.");
@@ -288,6 +292,54 @@ public class Server
         catch (Exception ex)
         {
             Console.WriteLine("Error sending email: " + ex.Message);
+        }
+    }
+
+    private static void ChangePassword(Socket client , string[] parts)
+    {
+        try
+        {
+            if ( parts.Length != 4 )
+            {
+                string response = "Invalid message format to change your password!";
+                byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                client.Send(responseBytes);
+                return;
+
+            }
+
+            string old_password_received = parts[1];
+            string new_password_received = parts[2];
+            string confirm_password_received = parts[3];
+
+            using(SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                conn.Open();
+                string query = "SELECT * FROM users WHERE Password = '" + old_password_received +"'";
+                SqlCommand sqlCommand = new SqlCommand(query, conn);
+                SqlDataReader reader = sqlCommand.ExecuteReader();
+                if (reader.Read())
+                {
+                    string update_query = "UPDATE users SET Password = '" + new_password_received + "'" + "WHERE Password = '" + old_password_received+"'";
+                    SqlCommand updatecommand = new SqlCommand(update_query, conn);
+                    updatecommand.ExecuteNonQuery();
+
+                    string response = "Change password successful!";
+                    byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                    client.Send(responseBytes);
+                }
+                else
+                {
+                    string response = "Change password failed!!";
+                    byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                    client.Send(responseBytes);
+                }
+            }
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
         }
     }
 }

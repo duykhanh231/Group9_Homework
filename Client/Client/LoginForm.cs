@@ -97,5 +97,15 @@ namespace Client
             PasswordReset resetForm = new PasswordReset();
             resetForm.Show();
         }
+
+        private void tbUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

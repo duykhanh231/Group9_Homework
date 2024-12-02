@@ -104,5 +104,10 @@ namespace Client
             loginform.Show();
             this.Hide();
         }
+
+        private void SignupForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
