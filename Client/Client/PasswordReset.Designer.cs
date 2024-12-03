@@ -31,53 +31,80 @@
             lblEmail = new Label();
             tbEmail = new TextBox();
             btnSubmit = new Button();
+            panel1 = new Panel();
+            lbPasswordReset = new Label();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Font = new Font("Segoe UI", 13.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblEmail.Location = new Point(28, 71);
-            lblEmail.Margin = new Padding(2, 0, 2, 0);
+            lblEmail.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblEmail.Location = new Point(110, 203);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(189, 32);
+            lblEmail.Size = new Size(251, 45);
             lblEmail.TabIndex = 0;
             lblEmail.Text = "Enter your email";
             // 
             // tbEmail
             // 
-            tbEmail.Location = new Point(226, 71);
-            tbEmail.Margin = new Padding(2);
+            tbEmail.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbEmail.Location = new Point(411, 200);
             tbEmail.Multiline = true;
             tbEmail.Name = "tbEmail";
-            tbEmail.Size = new Size(218, 33);
+            tbEmail.Size = new Size(352, 50);
             tbEmail.TabIndex = 1;
             tbEmail.TextChanged += tbEmail_TextChanged;
             // 
             // btnSubmit
             // 
-            btnSubmit.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSubmit.Location = new Point(190, 169);
-            btnSubmit.Margin = new Padding(2);
+            btnSubmit.BackColor = Color.IndianRed;
+            btnSubmit.FlatStyle = FlatStyle.Flat;
+            btnSubmit.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSubmit.ForeColor = Color.White;
+            btnSubmit.Location = new Point(377, 339);
             btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(111, 36);
+            btnSubmit.Size = new Size(180, 58);
             btnSubmit.TabIndex = 2;
             btnSubmit.Text = "Submit";
-            btnSubmit.UseVisualStyleBackColor = true;
+            btnSubmit.UseVisualStyleBackColor = false;
             btnSubmit.Click += btnSubmit_Click;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Black;
+            panel1.Controls.Add(lbPasswordReset);
+            panel1.Location = new Point(2, -1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(912, 112);
+            panel1.TabIndex = 9;
+            // 
+            // lbPasswordReset
+            // 
+            lbPasswordReset.AutoSize = true;
+            lbPasswordReset.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbPasswordReset.ForeColor = Color.White;
+            lbPasswordReset.Location = new Point(211, 21);
+            lbPasswordReset.Name = "lbPasswordReset";
+            lbPasswordReset.Size = new Size(493, 65);
+            lbPasswordReset.TabIndex = 0;
+            lbPasswordReset.Text = "Reset your password";
             // 
             // PasswordReset
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(492, 281);
+            BackColor = Color.White;
+            ClientSize = new Size(915, 508);
+            Controls.Add(panel1);
             Controls.Add(btnSubmit);
             Controls.Add(tbEmail);
             Controls.Add(lblEmail);
-            Margin = new Padding(2);
             Name = "PasswordReset";
             Text = "Password Reset";
             Load += PasswordReset_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -87,5 +114,7 @@
         private Label lblEmail;
         private TextBox tbEmail;
         private Button btnSubmit;
+        private Panel panel1;
+        private Label lbPasswordReset;
     }
 }

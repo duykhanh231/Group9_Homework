@@ -35,95 +35,117 @@
             tbPass = new TextBox();
             btnLogin = new Button();
             btnPasswordReset = new Button();
+            panel1 = new Panel();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // lbLogin
             // 
             lbLogin.AutoSize = true;
-            lbLogin.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbLogin.Location = new Point(134, 32);
-            lbLogin.Margin = new Padding(2, 0, 2, 0);
+            lbLogin.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbLogin.ForeColor = Color.White;
+            lbLogin.Location = new Point(235, 23);
             lbLogin.Name = "lbLogin";
-            lbLogin.Size = new Size(258, 37);
+            lbLogin.Size = new Size(454, 65);
             lbLogin.TabIndex = 0;
             lbLogin.Text = "Enter your account";
             // 
             // lbUsername
             // 
             lbUsername.AutoSize = true;
-            lbUsername.Location = new Point(109, 108);
-            lbUsername.Margin = new Padding(2, 0, 2, 0);
+            lbUsername.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbUsername.Location = new Point(177, 173);
             lbUsername.Name = "lbUsername";
-            lbUsername.Size = new Size(75, 20);
+            lbUsername.Size = new Size(163, 45);
             lbUsername.TabIndex = 1;
             lbUsername.Text = "Username";
             // 
             // lbPass
             // 
             lbPass.AutoSize = true;
-            lbPass.Location = new Point(109, 171);
-            lbPass.Margin = new Padding(2, 0, 2, 0);
+            lbPass.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbPass.Location = new Point(177, 274);
             lbPass.Name = "lbPass";
-            lbPass.Size = new Size(70, 20);
+            lbPass.Size = new Size(153, 45);
             lbPass.TabIndex = 2;
             lbPass.Text = "Password";
             // 
             // tbUsername
             // 
-            tbUsername.Location = new Point(241, 106);
-            tbUsername.Margin = new Padding(2);
+            tbUsername.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbUsername.Location = new Point(392, 170);
+            tbUsername.Multiline = true;
             tbUsername.Name = "tbUsername";
-            tbUsername.Size = new Size(165, 27);
+            tbUsername.Size = new Size(266, 48);
             tbUsername.TabIndex = 3;
             tbUsername.TextChanged += tbUsername_TextChanged;
             // 
             // tbPass
             // 
-            tbPass.Location = new Point(241, 169);
-            tbPass.Margin = new Padding(2);
+            tbPass.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbPass.Location = new Point(392, 270);
+            tbPass.Multiline = true;
             tbPass.Name = "tbPass";
             tbPass.PasswordChar = '*';
-            tbPass.Size = new Size(165, 27);
+            tbPass.Size = new Size(266, 49);
             tbPass.TabIndex = 4;
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(215, 228);
-            btnLogin.Margin = new Padding(2);
+            btnLogin.BackColor = Color.Teal;
+            btnLogin.FlatStyle = FlatStyle.Flat;
+            btnLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogin.ForeColor = Color.White;
+            btnLogin.Location = new Point(376, 382);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(92, 29);
+            btnLogin.Size = new Size(175, 55);
             btnLogin.TabIndex = 5;
             btnLogin.Text = "Login";
-            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
             // 
             // btnPasswordReset
             // 
-            btnPasswordReset.Location = new Point(198, 276);
-            btnPasswordReset.Margin = new Padding(2);
+            btnPasswordReset.BackColor = Color.IndianRed;
+            btnPasswordReset.FlatStyle = FlatStyle.Flat;
+            btnPasswordReset.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnPasswordReset.ForeColor = Color.White;
+            btnPasswordReset.Location = new Point(312, 474);
             btnPasswordReset.Name = "btnPasswordReset";
-            btnPasswordReset.Size = new Size(124, 29);
+            btnPasswordReset.Size = new Size(296, 55);
             btnPasswordReset.TabIndex = 6;
             btnPasswordReset.Text = "Forget password";
-            btnPasswordReset.UseVisualStyleBackColor = true;
+            btnPasswordReset.UseVisualStyleBackColor = false;
             btnPasswordReset.Click += btnPasswordReset_Click;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Black;
+            panel1.Controls.Add(lbLogin);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(912, 112);
+            panel1.TabIndex = 7;
+            panel1.Paint += panel1_Paint;
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(500, 330);
+            BackColor = Color.White;
+            ClientSize = new Size(910, 561);
+            Controls.Add(panel1);
             Controls.Add(btnPasswordReset);
             Controls.Add(btnLogin);
             Controls.Add(tbPass);
             Controls.Add(tbUsername);
             Controls.Add(lbPass);
             Controls.Add(lbUsername);
-            Controls.Add(lbLogin);
-            Margin = new Padding(2);
             Name = "LoginForm";
             Text = "Login";
             Load += LoginForm_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -137,5 +159,6 @@
         private TextBox tbPass;
         private Button btnLogin;
         private Button btnPasswordReset;
+        private Panel panel1;
     }
 }

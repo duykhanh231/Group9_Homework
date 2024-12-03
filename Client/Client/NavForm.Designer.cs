@@ -31,50 +31,72 @@
             lbUserMgmt = new Label();
             btnLogin = new Button();
             btnSignup = new Button();
+            panel1 = new Panel();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // lbUserMgmt
             // 
             lbUserMgmt.AutoSize = true;
-            lbUserMgmt.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbUserMgmt.Location = new Point(207, 71);
+            lbUserMgmt.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbUserMgmt.ForeColor = Color.White;
+            lbUserMgmt.Location = new Point(242, 20);
             lbUserMgmt.Name = "lbUserMgmt";
-            lbUserMgmt.Size = new Size(395, 59);
+            lbUserMgmt.Size = new Size(443, 65);
             lbUserMgmt.TabIndex = 0;
             lbUserMgmt.Text = "User Management";
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(332, 184);
+            btnLogin.BackColor = Color.Teal;
+            btnLogin.FlatStyle = FlatStyle.Flat;
+            btnLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogin.ForeColor = Color.White;
+            btnLogin.Location = new Point(382, 223);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(150, 46);
+            btnLogin.Size = new Size(163, 61);
             btnLogin.TabIndex = 1;
             btnLogin.Text = "Login";
-            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
             // 
             // btnSignup
             // 
-            btnSignup.Location = new Point(332, 271);
+            btnSignup.BackColor = Color.RoyalBlue;
+            btnSignup.FlatStyle = FlatStyle.Flat;
+            btnSignup.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSignup.ForeColor = Color.White;
+            btnSignup.Location = new Point(382, 318);
             btnSignup.Name = "btnSignup";
-            btnSignup.Size = new Size(150, 46);
+            btnSignup.Size = new Size(163, 61);
             btnSignup.TabIndex = 2;
             btnSignup.Text = "Sign up";
-            btnSignup.UseVisualStyleBackColor = true;
+            btnSignup.UseVisualStyleBackColor = false;
             btnSignup.Click += btnSignup_Click;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Black;
+            panel1.Controls.Add(lbUserMgmt);
+            panel1.Location = new Point(0, 1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(912, 112);
+            panel1.TabIndex = 8;
             // 
             // NavForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.White;
+            ClientSize = new Size(913, 544);
+            Controls.Add(panel1);
             Controls.Add(btnSignup);
             Controls.Add(btnLogin);
-            Controls.Add(lbUserMgmt);
             Name = "NavForm";
             Text = "Account";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -82,5 +104,6 @@
         private Label lbUserMgmt;
         private Button btnLogin;
         private Button btnSignup;
+        private Panel panel1;
     }
 }

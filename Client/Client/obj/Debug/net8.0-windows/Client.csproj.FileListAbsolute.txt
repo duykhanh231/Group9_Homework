@@ -127,3 +127,5 @@ D:\BaitapUIT\Lap trinh mang can ban\Exercise5_Email\Client\Client\obj\Debug\net8
 D:\BaitapUIT\Lap trinh mang can ban\Exercise5_Email\Client\Client\obj\Debug\net8.0-windows\Client.pdb
 D:\BaitapUIT\Lap trinh mang can ban\Exercise5_Email\Client\Client\obj\Debug\net8.0-windows\Client.genruntimeconfig.cache
 D:\BaitapUIT\Lap trinh mang can ban\Exercise5_Email\Client\Client\obj\Debug\net8.0-windows\ref\Client.dll
+D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.Change_Password.resources
+D:\Uni\NT106\Exercise\Client\Client\obj\Debug\net8.0-windows\Client.Properties.Resources.resources

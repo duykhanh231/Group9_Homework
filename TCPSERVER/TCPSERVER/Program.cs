@@ -206,7 +206,7 @@ public class Server
         }
     }
 
-    public static void PasswordReset(Socket client, string[] parts)
+    private static void PasswordReset(Socket client, string[] parts)
     {
         try
         {
@@ -232,14 +232,18 @@ public class Server
                 {
                     // Generate a new random password
                     string newPassword = GenerateRandomPassword();
+                    string hashedPassword = HashPassword(newPassword);
+                    Console.WriteLine("New Hashed Password: " + hashedPassword); // Log the new hashed password
 
-                    // Update the password in the dtb
+                    // Update the password in the database
                     datareader.Close();
                     string updateQuery = "UPDATE users SET Password = @Password WHERE Email = @Email";
                     SqlCommand cmdUpdate = new SqlCommand(updateQuery, conn);
-                    cmdUpdate.Parameters.AddWithValue("@Password", newPassword);
+                    cmdUpdate.Parameters.AddWithValue("@Password", hashedPassword);
                     cmdUpdate.Parameters.AddWithValue("@Email", receiveEmail);
-                    cmdUpdate.ExecuteNonQuery();
+
+                    int rowsAffected = cmdUpdate.ExecuteNonQuery();
+                    Console.WriteLine("Rows affected by password update: " + rowsAffected); // Log affected rows
 
                     SendEmail(receiveEmail, newPassword);
 
@@ -280,7 +284,7 @@ public class Server
             using (var client = new SmtpClient("smtp.gmail.com"))
             {
                 client.Port = 587;
-                client.Credentials = new NetworkCredential("nt106.gr11@gmail.com", "nsbt fmxj vzxz sgnj");
+                client.Credentials = new NetworkCredential("g9nt106.p13@gmail.com", "urus uiax ugcq hojy");
                 client.EnableSsl = true;
 
                 string subject = "Password Reset";

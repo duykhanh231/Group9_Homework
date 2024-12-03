@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\",
+  "WorkspaceRootPath": "D:\\Uni\\NT106\\Exercise\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\exercise5_email\\client\\client\\change_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\change_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\change_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\exercise5_email\\client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\change_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\change_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\exercise5_email\\client\\client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\exercise5_email\\client\\client\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\exercise5_email\\client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\uni\\nt106\\exercise\\client\\client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\exercise5_email\\client\\client\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|D:\\Uni\\NT106\\Exercise\\Client\\client\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|d:\\baitapuit\\lap trinh mang can ban\\exercise5_email\\client\\client\\change_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4AB5C4D-6290-42E4-8D4F-6C0121681E1B}|Client\\Client.csproj|solutionrelative:client\\change_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,45 +65,12 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PasswordReset.cs",
-              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\PasswordReset.cs",
-              "RelativeDocumentMoniker": "Client\\PasswordReset.cs",
-              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\PasswordReset.cs",
-              "RelativeToolTip": "Client\\PasswordReset.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:07:41.52Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PasswordReset.cs [Design]",
-              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\PasswordReset.cs",
-              "RelativeDocumentMoniker": "Client\\PasswordReset.cs",
-              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\PasswordReset.cs [Design]",
-              "RelativeToolTip": "Client\\PasswordReset.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:07:40.004Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\LoginForm.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs",
               "RelativeDocumentMoniker": "Client\\LoginForm.cs",
-              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\LoginForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs",
               "RelativeToolTip": "Client\\LoginForm.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -112,53 +79,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\LoginForm.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\LoginForm.cs",
               "RelativeDocumentMoniker": "Client\\LoginForm.cs",
               "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Client\\LoginForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:07:27.447Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-01T15:07:27.447Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Change_Password.cs",
-              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\Change_Password.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Change_Password.cs",
               "RelativeDocumentMoniker": "Client\\Change_Password.cs",
-              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\Change_Password.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Change_Password.cs",
               "RelativeToolTip": "Client\\Change_Password.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwDIAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwC4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T15:04:13.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignupForm.cs",
-              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\SignupForm.cs",
-              "RelativeDocumentMoniker": "Client\\SignupForm.cs",
-              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\SignupForm.cs",
-              "RelativeToolTip": "Client\\SignupForm.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAArwGIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Change_Password.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Change_Password.cs",
+              "RelativeDocumentMoniker": "Client\\Change_Password.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\Change_Password.cs [Design]",
+              "RelativeToolTip": "Client\\Change_Password.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:02:27.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T14:33:59.081Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Change_Password.cs [Design]",
-              "DocumentMoniker": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\Change_Password.cs",
-              "RelativeDocumentMoniker": "Client\\Change_Password.cs",
-              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\Change_Password.cs [Design]",
-              "RelativeToolTip": "Client\\Change_Password.cs [Design]",
+              "Title": "PasswordReset.cs [Design]",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\PasswordReset.cs",
+              "RelativeDocumentMoniker": "Client\\PasswordReset.cs",
+              "ToolTip": "D:\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\PasswordReset.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\BaitapUIT\\Lap trinh mang can ban\\Exercise5_Email\\Client\\Client\\PasswordReset.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:33:59.081Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-01T15:07:40.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordReset.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\PasswordReset.cs",
+              "RelativeDocumentMoniker": "Client\\PasswordReset.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\PasswordReset.cs",
+              "RelativeToolTip": "Client\\PasswordReset.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:07:41.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignupForm.cs",
+              "DocumentMoniker": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\SignupForm.cs",
+              "RelativeDocumentMoniker": "Client\\SignupForm.cs",
+              "ToolTip": "D:\\Uni\\NT106\\Exercise\\Client\\Client\\SignupForm.cs",
+              "RelativeToolTip": "Client\\SignupForm.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAArwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:02:27.508Z"
             }
           ]
         },
