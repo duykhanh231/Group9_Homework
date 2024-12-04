@@ -12,6 +12,10 @@ namespace Client
 {
     public partial class ProfileForm : Form
     {
+        public ProfileForm()
+        {
+        }
+
         public ProfileForm(string username, string email, string fullname, string birthday)
         {
             InitializeComponent();
@@ -20,6 +24,17 @@ namespace Client
             tbEmail.Text = email;
             tbName.Text = fullname;
             tbBirth.Text = birthday;
+        }
+
+        private void tbBirth_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnChangePassword_Click(object sender, EventArgs e)
+        {
+            Change_Password change_Password = new Change_Password();
+            change_Password.Show();
         }
     }
 }

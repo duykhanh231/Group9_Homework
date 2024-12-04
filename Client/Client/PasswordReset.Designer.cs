@@ -48,6 +48,7 @@
             // 
             // tbEmail
             // 
+            tbEmail.BackColor = Color.White;
             tbEmail.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbEmail.Location = new Point(411, 200);
             tbEmail.Multiline = true;
